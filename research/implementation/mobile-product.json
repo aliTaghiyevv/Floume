@@ -1,0 +1,113 @@
+{
+  "metrics": {
+    "width": 390,
+    "scrollWidth": 390,
+    "landmarks": [
+      {
+        "class": "site-header",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 61,
+          "top": 0,
+          "right": 390,
+          "bottom": 61,
+          "left": 0
+        }
+      },
+      {
+        "class": "store-rail product-rail",
+        "rect": {
+          "x": 0,
+          "y": 61,
+          "width": 390,
+          "height": 80,
+          "top": 61,
+          "right": 390,
+          "bottom": 141,
+          "left": 0
+        }
+      },
+      {
+        "class": "main-product-image",
+        "rect": {
+          "x": 12,
+          "y": 141,
+          "width": 366,
+          "height": 366,
+          "top": 141,
+          "right": 378,
+          "bottom": 507,
+          "left": 12
+        }
+      },
+      {
+        "class": "product-intro",
+        "rect": {
+          "x": 12,
+          "y": 531,
+          "width": 366,
+          "height": 101,
+          "top": 531,
+          "right": 378,
+          "bottom": 632,
+          "left": 12
+        }
+      },
+      {
+        "class": "price-quantity",
+        "rect": {
+          "x": 12,
+          "y": 656,
+          "width": 366,
+          "height": 44,
+          "top": 656,
+          "right": 378,
+          "bottom": 700,
+          "left": 12
+        }
+      },
+      {
+        "class": "purchase-actions",
+        "rect": {
+          "x": 12,
+          "y": 724,
+          "width": 366,
+          "height": 112,
+          "top": 724,
+          "right": 378,
+          "bottom": 836,
+          "left": 12
+        }
+      },
+      {
+        "class": "product-grid",
+        "rect": {
+          "x": 12,
+          "y": 1386,
+          "width": 366,
+          "height": 1148,
+          "top": 1386,
+          "right": 378,
+          "bottom": 2534,
+          "left": 12
+        }
+      },
+      {
+        "class": "product-grid",
+        "rect": {
+          "x": 12,
+          "y": 2676,
+          "width": 366,
+          "height": 252.5,
+          "top": 2676,
+          "right": 378,
+          "bottom": 2928.5,
+          "left": 12
+        }
+      }
+    ]
+  },
+  "errors": []
+}

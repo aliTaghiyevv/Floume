@@ -1,0 +1,113 @@
+{
+  "metrics": {
+    "width": 768,
+    "scrollWidth": 768,
+    "landmarks": [
+      {
+        "class": "site-header",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 61,
+          "top": 0,
+          "right": 768,
+          "bottom": 61,
+          "left": 0
+        }
+      },
+      {
+        "class": "store-rail product-rail",
+        "rect": {
+          "x": 0,
+          "y": 61,
+          "width": 768,
+          "height": 80,
+          "top": 61,
+          "right": 768,
+          "bottom": 141,
+          "left": 0
+        }
+      },
+      {
+        "class": "main-product-image",
+        "rect": {
+          "x": 12,
+          "y": 173,
+          "width": 356,
+          "height": 356,
+          "top": 173,
+          "right": 368,
+          "bottom": 529,
+          "left": 12
+        }
+      },
+      {
+        "class": "product-intro",
+        "rect": {
+          "x": 400,
+          "y": 173,
+          "width": 356,
+          "height": 106,
+          "top": 173,
+          "right": 756,
+          "bottom": 279,
+          "left": 400
+        }
+      },
+      {
+        "class": "price-quantity",
+        "rect": {
+          "x": 400,
+          "y": 303,
+          "width": 356,
+          "height": 44,
+          "top": 303,
+          "right": 756,
+          "bottom": 347,
+          "left": 400
+        }
+      },
+      {
+        "class": "purchase-actions",
+        "rect": {
+          "x": 400,
+          "y": 371,
+          "width": 356,
+          "height": 114,
+          "top": 371,
+          "right": 756,
+          "bottom": 485,
+          "left": 400
+        }
+      },
+      {
+        "class": "product-grid",
+        "rect": {
+          "x": 12,
+          "y": 1079,
+          "width": 744,
+          "height": 566,
+          "top": 1079,
+          "right": 756,
+          "bottom": 1645,
+          "left": 12
+        }
+      },
+      {
+        "class": "product-grid",
+        "rect": {
+          "x": 12,
+          "y": 1805,
+          "width": 744,
+          "height": 249.5,
+          "top": 1805,
+          "right": 756,
+          "bottom": 2054.5,
+          "left": 12
+        }
+      }
+    ]
+  },
+  "errors": []
+}

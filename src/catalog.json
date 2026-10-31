@@ -1,0 +1,1356 @@
+{
+  "branding": {
+    "logo": "/assets/0ae022282d95fbc6.svg",
+    "logoIcon": "/assets/141ac102c638ac85.svg",
+    "applePay": "/assets/dec47204ac333006.png",
+    "googlePay": "/assets/2942d32ad9a4ce2e.png",
+    "visa": "/assets/c619958727622f4b.png",
+    "mastercard": "/assets/adbac51810ebf4a0.png",
+    "inter": "/assets/032042814365accb.woff2",
+    "playfair": "/assets/2e24410f729549da.woff2"
+  },
+  "banners": [
+    {
+      "id": "e1db3aac-3a93-4abd-920e-1564577c481a",
+      "image": "/assets/285ff38b603f2486.webp",
+      "alt": "WELCOME10"
+    },
+    {
+      "id": "90d3a28d-1e98-4d51-9e1c-9082024b9362",
+      "image": "/assets/33d58256126aba12.webp",
+      "alt": "WELCOME10"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Flowers",
+      "categories": [
+        {
+          "id": "1a089b54-e094-4feb-b743-4fa5918701a9",
+          "name": "Bestsellers",
+          "image": "/assets/65722d57827e7799.webp"
+        },
+        {
+          "id": "3aac4b2a-24e9-45ef-b127-abb35b4ed5b5",
+          "name": "Premium Bouquets",
+          "image": "/assets/bac9f6ca69c216b2.webp"
+        },
+        {
+          "id": "fca179a6-2fd9-4049-9dd1-885f5fb39b0c",
+          "name": "Hydrangea Bouquets",
+          "image": "/assets/3d7e05fe1ea8ee67.webp"
+        },
+        {
+          "id": "b31e05df-90ed-4c4c-b978-07bb326ef24a",
+          "name": "Roses",
+          "image": "/assets/b6e396468056bacb.webp"
+        },
+        {
+          "id": "7571ac4c-07db-4cb8-934a-fc2bdcb676b4",
+          "name": "Flower boxes",
+          "image": "/assets/426e751ef86145b0.webp"
+        },
+        {
+          "id": "641c9f86-d5f8-490b-9b2d-aa060617186c",
+          "name": "Wedding flowers",
+          "image": "/assets/6f462c77a5d2a313.webp"
+        },
+        {
+          "id": "c165fec8-8d5f-407c-98bd-7092c81c3c9b",
+          "name": "Bouquets",
+          "image": "/assets/16cd1dc172aa3d00.webp"
+        }
+      ],
+      "productHeading": "Bestsellers",
+      "productIds": [
+        "b99d12e1-4d70-4728-b7fc-10b4a818320b",
+        "b7f296c0-7afc-44d9-818c-425e14a480df",
+        "313e3f2f-ca1b-44a8-ba82-4126cc0c67eb",
+        "251ba301-cf25-4478-a130-44695600f7e1",
+        "cc1f9d6d-94dd-4870-a3fc-81946434b719",
+        "13c12710-c558-44df-8343-13b9b96d4e75",
+        "d7da5a04-e1f7-4417-bfa0-a1b8f6193b8a",
+        "fb894c1d-58cf-4c0c-a528-c2010de8f00d"
+      ]
+    },
+    {
+      "name": "Plush & Balloons",
+      "categories": [
+        {
+          "id": "215d4b42-2c42-4d3f-88ab-ea433f442cfe",
+          "name": "Teddy bear",
+          "image": "/assets/6df50b26ed877950.webp"
+        },
+        {
+          "id": "704712aa-2df7-4434-a12c-49434fd2d649",
+          "name": "Helium balloons",
+          "image": "/assets/3d78e96b1b1d060c.webp"
+        },
+        {
+          "id": "30efe10a-1228-4a34-b1e1-aae1d5749d08",
+          "name": "Number balloons",
+          "image": "/assets/0033c898775ed047.webp"
+        },
+        {
+          "id": "70ac575e-f894-4c86-bb0b-18e9af9da497",
+          "name": "Knitted Toys",
+          "image": "/assets/357ee14bb9ff0e87.webp"
+        },
+        {
+          "id": "2918336c-085c-472a-a049-d4c94fdd7ac6",
+          "name": "Plush toys",
+          "image": "/assets/154dfdf9cd4e5425.webp"
+        }
+      ],
+      "productHeading": "Teddy bear",
+      "productIds": [
+        "fb97ddaa-d081-4f19-a21d-2cc32afb2303",
+        "8a15cb9e-5493-428e-be55-9d834c027287",
+        "26fd778f-f971-4c03-ae23-bead0943a13b",
+        "36842682-4151-4d09-ab49-52347b45c1e1",
+        "64cc8c8e-2a19-4e03-8f41-8ec86195b7e5",
+        "26fd0482-717f-400f-a0f9-726554631e0c",
+        "f3cdb22b-41d3-40db-9c51-2c51dc4571e9",
+        "64f061ee-20da-4606-aabd-7a4778749da6"
+      ]
+    },
+    {
+      "name": "Perfumes",
+      "categories": [
+        {
+          "id": "8ab7990f-68cf-49d3-a001-ee2c50956c95",
+          "name": "Women's fragrances",
+          "image": "/assets/3423f0fa6226a2a7.webp"
+        }
+      ],
+      "productHeading": "Women's fragrances",
+      "productIds": [
+        "9e37afff-cefe-47a9-8bbb-0f6a960718fe",
+        "12dff39e-2778-4803-aa5a-da5d7dbd1ccb",
+        "cdbab5ea-e46e-4c54-ada1-8e14121329b9",
+        "7db94610-b0d3-49d8-a5fe-5c50272117e9",
+        "db9f2d12-583b-494f-8fa7-45ec54ea8d2a",
+        "f2ca5351-cfd7-4286-a4e8-537b0ed85a56",
+        "9ade3f94-7cee-4a15-8690-81d1cd9f53ca",
+        "fbbc8f70-250b-4f7c-8fa0-0bdaf0ba7196"
+      ]
+    },
+    {
+      "name": "Sweets",
+      "categories": [
+        {
+          "id": "8dfe08cf-c3d3-449b-9a2f-e519fd666eac",
+          "name": "Chocolate-Covered Strawberries",
+          "image": "/assets/cf3b7e789c603c79.webp"
+        },
+        {
+          "id": "61e13f64-de90-45d8-8eb5-aa7692505753",
+          "name": "Chocolates",
+          "image": "/assets/060fb9104cdc5258.webp"
+        },
+        {
+          "id": "d36b288e-58a1-469b-8ed6-98066206149b",
+          "name": "Love Boxes",
+          "image": "/assets/3f032398330b55b0.webp"
+        },
+        {
+          "id": "975b8378-53a6-4d97-98df-c8b475cb7ed1",
+          "name": "Chocolate Banana",
+          "image": "/assets/fd4126f934adb855.webp"
+        },
+        {
+          "id": "5fc62983-7661-476c-abad-b8c0462b4680",
+          "name": "Chocolate Cups",
+          "image": "/assets/30685912ab81e6d0.webp"
+        },
+        {
+          "id": "ccca2e7c-2ab7-4375-b696-5d3cdee851bb",
+          "name": "Cookies",
+          "image": "/assets/8538b51f459ca65f.webp"
+        },
+        {
+          "id": "2f5300a8-0bb3-4103-9b16-a67ffbf47447",
+          "name": "Cakes",
+          "image": "/assets/dbfc50647eb56321.webp"
+        }
+      ],
+      "productHeading": "Chocolate-Covered Strawberries",
+      "productIds": [
+        "d62ee74e-27b3-47d4-9fc3-04efb4038bfe",
+        "c2003720-2885-4081-bad9-b3a7531853fe",
+        "35e25700-7a4b-4da3-9c80-34a2a40ffd66",
+        "db083edc-0896-4546-81c7-3db24138ca36",
+        "eba300fb-8749-4eba-acf8-243b2584edd3",
+        "b02a723d-d2fe-4218-b581-8d3bcf00ce6d",
+        "94d59e1b-9655-463b-a965-1f835a7a7578",
+        "db2161e7-3f80-46bd-9c0a-20148c129dd8"
+      ]
+    },
+    {
+      "name": "Gift Boxes",
+      "categories": [
+        {
+          "id": "040f1aad-30dc-43ea-8d9c-bb9e7d713554",
+          "name": "Luxury gift boxes",
+          "image": "/assets/534c936b041c4d50.webp"
+        },
+        {
+          "id": "6923eb4f-43d2-41a9-8b06-5dae639bd0a6",
+          "name": "Chocolate boxes",
+          "image": "/assets/6c4fb358812290d6.webp"
+        }
+      ],
+      "productHeading": "Luxury gift boxes",
+      "productIds": ["d4ee3877-0286-4f14-b01b-71e435b80c74"]
+    },
+    {
+      "name": "Azerbaijani Traditional Products",
+      "categories": [
+        {
+          "id": "9ba2bea8-d3e1-4f27-a0c8-28f5478f6d30",
+          "name": "National Gifts",
+          "image": "/assets/420441d476c041bc.webp"
+        },
+        {
+          "id": "7168853e-1be7-4371-bcb8-33db4b2c4969",
+          "name": "Traditional Bags & Accessories",
+          "image": "/assets/4ec36e3335de5bff.webp"
+        }
+      ],
+      "productHeading": "National Gifts",
+      "productIds": [
+        "1fc12d63-4b50-47ea-b2fb-92857bbecf5a",
+        "f9f7a287-6272-41ba-9cae-9288b6702c11",
+        "ae5f3f4d-a7fa-4f65-a296-54e79e150b73",
+        "420de10d-6c16-4caa-b141-a4ac7774c449",
+        "38ee3809-ec16-4128-bdec-78bb010dedf4",
+        "4e4e9866-509c-4c94-b4c0-a6e93310c957",
+        "328f0e23-3d8a-4495-a715-ea69618213a5",
+        "725041c3-306a-4391-b40e-eadcb72a0fe1"
+      ]
+    },
+    {
+      "name": "Home & Lifestyle",
+      "categories": [
+        {
+          "id": "7f44da12-4743-46f5-8ed1-44d0b09998a6",
+          "name": "Candles",
+          "image": "/assets/6e6a4a7d1981ca30.webp"
+        }
+      ],
+      "productHeading": "Candles",
+      "productIds": [
+        "6a183813-ba37-41e4-8be4-55d7fa070c0e",
+        "7f40778e-a64f-4cfa-b7df-4069ea91e6d4",
+        "29dd8625-53e4-4537-a1c3-c886b6933fdf",
+        "188c6d41-24fc-416c-93f5-c55fcf95952d",
+        "3cb68586-aaa1-4151-950b-b14bd4a9193a",
+        "e63d8bd5-694c-484b-b5cc-2ed0267580ca",
+        "da8cc231-08b1-4421-8d26-6bfb595a9f5f",
+        "3c9d0121-f4d2-41f2-a75f-48ff4e2d85da"
+      ]
+    },
+    {
+      "name": "Hobbies",
+      "categories": [
+        {
+          "id": "53a048d7-6e7b-48c4-a0d0-6f2333a4c9a7",
+          "name": "LEGO and Puzzle",
+          "image": "/assets/15040f9208d4d7c4.webp"
+        },
+        {
+          "id": "b124e595-ed25-42cd-94f4-952011a857ca",
+          "name": "Gaming accessories",
+          "image": "/assets/8b466ef0ba9f8921.webp"
+        }
+      ],
+      "productHeading": "LEGO and Puzzle",
+      "productIds": [
+        "22dfec50-2b0c-46c3-9e88-4ff19488b243",
+        "e13ef01c-256d-4144-bd26-50add5402dbd",
+        "f692c001-fee0-494a-8560-3f64bd960c59",
+        "2f3c6d4c-308b-44be-9005-001e4b7673d1",
+        "2f93373f-a659-4362-ad1e-cdb342707260",
+        "8e64a107-7fdc-4daa-b1c5-f0352c9342d1",
+        "0fc8ad26-bd10-4e08-868d-dc13811a7353",
+        "609372ae-81ae-4d55-89c4-9e331c045017"
+      ]
+    },
+    {
+      "name": "Jewelry & Accessories",
+      "categories": [
+        {
+          "id": "8a15d286-14ef-45a1-97b3-10a0cde8af65",
+          "name": "Handbags",
+          "image": "/assets/9e92489b3f917957.webp"
+        },
+        {
+          "id": "1a849a67-bb8c-442e-b98b-db86c496b3ef",
+          "name": "Bracelets",
+          "image": "/assets/36d8aa0dfe3dc489.webp"
+        },
+        {
+          "id": "1e3cd45b-15e4-4fbe-9996-e572a0292971",
+          "name": "Knitted Bags",
+          "image": "/assets/ec777dc0c5f77ddc.webp"
+        }
+      ],
+      "productHeading": "Handbags",
+      "productIds": [
+        "c544256e-fe9d-441b-8887-1e6e1e45ace0",
+        "60da7f66-fc0a-40ef-b46f-1ef1df498bf8",
+        "ba793bb1-79ca-45c1-83b2-494a39caee60",
+        "3698ac7c-1386-44b6-b576-33b8d12b0ef3",
+        "266e14ec-b952-4e6e-807e-e6ed315b1a2c",
+        "3466075a-508e-45b4-aad5-87849aa6048e",
+        "489ea05c-de92-4def-807f-8bfb57bb265c",
+        "4b415b7b-544f-46ba-84dd-97e87427e7ee"
+      ]
+    },
+    {
+      "name": "Personalized Gifts",
+      "categories": [
+        {
+          "id": "25869c33-d476-42b1-9d89-0431b90a2a8d",
+          "name": "Personalized Cardholders",
+          "image": "/assets/8b44cea7658d2338.webp"
+        }
+      ],
+      "productHeading": "Personalized Cardholders",
+      "productIds": []
+    }
+  ],
+  "products": [
+    {
+      "id": "b99d12e1-4d70-4728-b7fc-10b4a818320b",
+      "name": "Pink Bouquet",
+      "price": 50.0,
+      "image": "/assets/31ad63c0ea45d322.webp",
+      "images": ["/assets/5b3d05228d06da73.webp"],
+      "categoryIds": ["1a089b54-e094-4feb-b743-4fa5918701a9"],
+      "rating": 0,
+      "similarIds": [
+        "b99d12e1-4d70-4728-b7fc-10b4a818320b",
+        "b7f296c0-7afc-44d9-818c-425e14a480df",
+        "313e3f2f-ca1b-44a8-ba82-4126cc0c67eb",
+        "251ba301-cf25-4478-a130-44695600f7e1",
+        "cc1f9d6d-94dd-4870-a3fc-81946434b719",
+        "13c12710-c558-44df-8343-13b9b96d4e75",
+        "d7da5a04-e1f7-4417-bfa0-a1b8f6193b8a",
+        "fb894c1d-58cf-4c0c-a528-c2010de8f00d"
+      ],
+      "storeProductIds": [
+        "b99d12e1-4d70-4728-b7fc-10b4a818320b",
+        "8ab5887b-390b-4c87-8c26-22c07644cbed",
+        "58f4626c-580d-4daa-81ce-dc7ae9ce8388",
+        "21c2c4f4-eb93-48ad-b219-e7569aa6b398",
+        "84fdc13f-2f34-4fb9-b963-c14d70058068",
+        "5a10db29-5cac-4d43-a74f-273b2bca7bd9",
+        "aaedafbb-fd9b-470e-9196-654ce629e0fc",
+        "45fe363a-b5bc-49d0-b77a-f8c83185f262"
+      ],
+      "stockLabel": "2 left in stock",
+      "stock": 2,
+      "description": "",
+      "storeId": "600676ae-1b56-44ad-a0ad-6337ffd23bfa",
+      "storeName": "House of flowers",
+      "storeImage": "/assets/6d28a61b2c1c10ac.webp",
+      "width": "0.4",
+      "height": "0.6"
+    },
+    {
+      "id": "b7f296c0-7afc-44d9-818c-425e14a480df",
+      "name": "Premium Bouquet of Pink Roses and White Hydrangeas",
+      "price": 115.0,
+      "image": "/assets/a3d983229f9272ea.webp",
+      "images": ["/assets/294ddbd814dbbf45.webp"],
+      "categoryIds": ["1a089b54-e094-4feb-b743-4fa5918701a9"],
+      "rating": 0,
+      "stockLabel": "2 left in stock",
+      "stock": 2,
+      "description": "",
+      "storeId": "4b5082ef-7d4c-4d8d-97c7-f99cfa2fccbf",
+      "storeName": "ALLIUM Floral Elegance",
+      "storeImage": ""
+    },
+    {
+      "id": "313e3f2f-ca1b-44a8-ba82-4126cc0c67eb",
+      "name": "Premium Bouquet of Pink Hydrangeas, Roses, and Lisianthus",
+      "price": 120.0,
+      "image": "/assets/25cc9957ae8b38d1.webp",
+      "images": ["/assets/7a5ea546969cb3ba.webp"],
+      "categoryIds": ["1a089b54-e094-4feb-b743-4fa5918701a9"],
+      "rating": 0,
+      "stockLabel": "3 left in stock",
+      "stock": 3,
+      "description": "",
+      "storeId": "4b5082ef-7d4c-4d8d-97c7-f99cfa2fccbf",
+      "storeName": "ALLIUM Floral Elegance",
+      "storeImage": ""
+    },
+    {
+      "id": "251ba301-cf25-4478-a130-44695600f7e1",
+      "name": "Premium Bouquet of Cream and Pale Yellow Roses",
+      "price": 100.0,
+      "image": "/assets/826f0112288d6a9c.webp",
+      "images": ["/assets/f04135a7c410aff0.webp"],
+      "categoryIds": ["1a089b54-e094-4feb-b743-4fa5918701a9"],
+      "rating": 0,
+      "stockLabel": "3 left in stock",
+      "stock": 3,
+      "description": "",
+      "storeId": "4b5082ef-7d4c-4d8d-97c7-f99cfa2fccbf",
+      "storeName": "ALLIUM Floral Elegance",
+      "storeImage": ""
+    },
+    {
+      "id": "cc1f9d6d-94dd-4870-a3fc-81946434b719",
+      "name": "Delicate Wreath",
+      "price": 50.0,
+      "image": "/assets/56f76bb8195b6887.webp",
+      "images": ["/assets/215235c168f21eb7.webp"],
+      "categoryIds": ["1a089b54-e094-4feb-b743-4fa5918701a9"],
+      "rating": 5,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "A soft, tonal bouquet of blush pink roses, carnations, and small peony buds.",
+      "storeId": "69679f3e-db26-4dba-9461-72a4bf1265bc",
+      "storeName": "ZANBAGH flowers",
+      "storeImage": "",
+      "width": "40",
+      "height": "49.82"
+    },
+    {
+      "id": "13c12710-c558-44df-8343-13b9b96d4e75",
+      "name": "Bright Pink Peony Spray Rose Bouquet",
+      "price": 80.0,
+      "image": "/assets/c4ea28021fd56416.webp",
+      "images": ["/assets/5ec791c729bb01ca.webp"],
+      "categoryIds": ["1a089b54-e094-4feb-b743-4fa5918701a9"],
+      "rating": 5,
+      "stockLabel": "11",
+      "stock": 20,
+      "description": "",
+      "storeId": "64c3cd1c-9017-4f8f-8b23-b492125cd7e8",
+      "storeName": "Flowers City Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "d7da5a04-e1f7-4417-bfa0-a1b8f6193b8a",
+      "name": "Delicate White Rose & Pink Hydrangea Bouquet",
+      "price": 85.0,
+      "image": "/assets/f08a63ddd5bf7c3f.webp",
+      "images": ["/assets/2bcb8b6afce04adb.webp"],
+      "categoryIds": ["1a089b54-e094-4feb-b743-4fa5918701a9"],
+      "rating": 5,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "",
+      "storeId": "64c3cd1c-9017-4f8f-8b23-b492125cd7e8",
+      "storeName": "Flowers City Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "fb894c1d-58cf-4c0c-a528-c2010de8f00d",
+      "name": "Yellow Peony-Style Bouquet",
+      "price": 55.0,
+      "image": "/assets/e8148749355287b8.webp",
+      "images": ["/assets/72a0f19405260036.webp"],
+      "categoryIds": ["1a089b54-e094-4feb-b743-4fa5918701a9"],
+      "rating": 5,
+      "stockLabel": "2 left in stock",
+      "stock": 2,
+      "description": "",
+      "storeId": "64c3cd1c-9017-4f8f-8b23-b492125cd7e8",
+      "storeName": "Flowers City Baku",
+      "storeImage": "",
+      "width": "35",
+      "height": "70"
+    },
+    {
+      "id": "fb97ddaa-d081-4f19-a21d-2cc32afb2303",
+      "name": "Classic Grey \"Me to You\" Teddy Bear with Red Bow & Floral Dress",
+      "price": 35.0,
+      "image": "/assets/810c4929b3225044.webp",
+      "images": ["/assets/ff40c1040a805013.webp"],
+      "categoryIds": ["215d4b42-2c42-4d3f-88ab-ea433f442cfe"],
+      "rating": 0,
+      "stockLabel": "1 left in stock",
+      "stock": 1,
+      "description": "",
+      "storeId": "64c3cd1c-9017-4f8f-8b23-b492125cd7e8",
+      "storeName": "Flowers City Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "8a15cb9e-5493-428e-be55-9d834c027287",
+      "name": "Classic Grey \"Me to You\" Teddy Bear in Red Top & Floral Dress",
+      "price": 35.0,
+      "image": "/assets/b042a3f29e86284c.webp",
+      "images": ["/assets/9e1867ace7dd3ba0.webp"],
+      "categoryIds": ["215d4b42-2c42-4d3f-88ab-ea433f442cfe"],
+      "rating": 0,
+      "stockLabel": "1 left in stock",
+      "stock": 1,
+      "description": "",
+      "storeId": "64c3cd1c-9017-4f8f-8b23-b492125cd7e8",
+      "storeName": "Flowers City Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "26fd778f-f971-4c03-ae23-bead0943a13b",
+      "name": "Classic Grey \"Me to You\" Teddy Bear in Floral Pink Dress",
+      "price": 30.0,
+      "image": "/assets/ab691736805eab5e.webp",
+      "images": ["/assets/6963bf3263569a3e.webp"],
+      "categoryIds": ["215d4b42-2c42-4d3f-88ab-ea433f442cfe"],
+      "rating": 0,
+      "stockLabel": "1 left in stock",
+      "stock": 1,
+      "description": "",
+      "storeId": "64c3cd1c-9017-4f8f-8b23-b492125cd7e8",
+      "storeName": "Flowers City Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "36842682-4151-4d09-ab49-52347b45c1e1",
+      "name": "Classic Grey \"Me to You\" Teddy Bear in Denim Overalls",
+      "price": 35.0,
+      "image": "/assets/da47b1d55bffcfc5.webp",
+      "images": ["/assets/0398dbdb23422d51.webp"],
+      "categoryIds": ["215d4b42-2c42-4d3f-88ab-ea433f442cfe"],
+      "rating": 0,
+      "stockLabel": "1 left in stock",
+      "stock": 1,
+      "description": "",
+      "storeId": "64c3cd1c-9017-4f8f-8b23-b492125cd7e8",
+      "storeName": "Flowers City Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "64cc8c8e-2a19-4e03-8f41-8ec86195b7e5",
+      "name": "Classic Grey \"Me to You\" Teddy Bear with Striped Scarf",
+      "price": 35.0,
+      "image": "/assets/37a9318b09360370.webp",
+      "images": ["/assets/2ee60806ab7487e5.webp"],
+      "categoryIds": ["215d4b42-2c42-4d3f-88ab-ea433f442cfe"],
+      "rating": 0,
+      "stockLabel": "1 left in stock",
+      "stock": 1,
+      "description": "",
+      "storeId": "64c3cd1c-9017-4f8f-8b23-b492125cd7e8",
+      "storeName": "Flowers City Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "26fd0482-717f-400f-a0f9-726554631e0c",
+      "name": "Classic Grey \"Me to You\" Teddy Bear in Blue T-Shirt",
+      "price": 45.0,
+      "image": "/assets/127efbf616bfb534.webp",
+      "images": ["/assets/90506a841573e6d9.webp"],
+      "categoryIds": ["215d4b42-2c42-4d3f-88ab-ea433f442cfe"],
+      "rating": 0,
+      "stockLabel": "1 left in stock",
+      "stock": 1,
+      "description": "",
+      "storeId": "64c3cd1c-9017-4f8f-8b23-b492125cd7e8",
+      "storeName": "Flowers City Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "f3cdb22b-41d3-40db-9c51-2c51dc4571e9",
+      "name": "Classic Grey \"Me to You\" Teddy Bear in Red T-Shirt",
+      "price": 45.0,
+      "image": "/assets/43a022ce4fea4bac.webp",
+      "images": ["/assets/61df30735d116a09.webp"],
+      "categoryIds": ["215d4b42-2c42-4d3f-88ab-ea433f442cfe"],
+      "rating": 0,
+      "stockLabel": "1 left in stock",
+      "stock": 1,
+      "description": "",
+      "storeId": "64c3cd1c-9017-4f8f-8b23-b492125cd7e8",
+      "storeName": "Flowers City Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "64f061ee-20da-4606-aabd-7a4778749da6",
+      "name": "Grey Tatty Teddy Bear with Red \"LOVE\" Top",
+      "price": 80.0,
+      "image": "/assets/4fe516b3df46ef23.webp",
+      "images": ["/assets/2ed3c78d9f6657fe.webp"],
+      "categoryIds": ["215d4b42-2c42-4d3f-88ab-ea433f442cfe"],
+      "rating": 0,
+      "stockLabel": "2 left in stock",
+      "stock": 2,
+      "description": "",
+      "storeId": "600676ae-1b56-44ad-a0ad-6337ffd23bfa",
+      "storeName": "House of flowers",
+      "storeImage": ""
+    },
+    {
+      "id": "9e37afff-cefe-47a9-8bbb-0f6a960718fe",
+      "name": "Arabesque Perfume",
+      "price": 45.0,
+      "image": "/assets/8b5e323e1b088067.webp",
+      "images": ["/assets/4687846d87c1e8bd.webp"],
+      "categoryIds": ["8ab7990f-68cf-49d3-a001-ee2c50956c95"],
+      "rating": 0,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "Arabesque is an elegant and captivating fragrance, perfect for everyday wear and special occasions. Its long-lasting scent creates a pleasant and memorable impression.",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "12dff39e-2778-4803-aa5a-da5d7dbd1ccb",
+      "name": "Veloura Perfume",
+      "price": 45.0,
+      "image": "/assets/37c03b4da28a9ec9.webp",
+      "images": ["/assets/8231969a187eba9b.webp"],
+      "categoryIds": ["8ab7990f-68cf-49d3-a001-ee2c50956c95"],
+      "rating": 0,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "Veloura brings together softness and character in a refined fragrance with a distinctive touch. A beautiful choice for those who appreciate individuality and want to add an elegant finishing touch to their look.",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "cdbab5ea-e46e-4c54-ada1-8e14121329b9",
+      "name": "Nuvia Perfume",
+      "price": 45.0,
+      "image": "/assets/6dc162d99675a458.webp",
+      "images": ["/assets/5af50c7137b81310.webp"],
+      "categoryIds": ["8ab7990f-68cf-49d3-a001-ee2c50956c95"],
+      "rating": 0,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "Nuvia is a fresh and delicate fragrance that creates a light, uplifting feeling. Its gentle character makes it a lovely choice for everyday wear as well as special occasions.",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "7db94610-b0d3-49d8-a5fe-5c50272117e9",
+      "name": "Noire Perfume",
+      "price": 45.0,
+      "image": "/assets/fbfb48c3cc1bdcfe.webp",
+      "images": ["/assets/391717a75576cbd0.webp"],
+      "categoryIds": ["8ab7990f-68cf-49d3-a001-ee2c50956c95"],
+      "rating": 0,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "Noire is a mysterious and distinctive fragrance created for those who appreciate depth and character. Its rich presence makes it a perfect addition to evening looks and memorable occasions.",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "db9f2d12-583b-494f-8fa7-45ec54ea8d2a",
+      "name": "Bellora Perfume",
+      "price": 45.0,
+      "image": "/assets/32e9021683954ccb.webp",
+      "images": ["/assets/5fc6802d9879e0cc.webp"],
+      "categoryIds": ["8ab7990f-68cf-49d3-a001-ee2c50956c95"],
+      "rating": 0,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "Bellora is a delicate and feminine fragrance that brings a sense of elegance and refinement. A lovely choice for adding a graceful touch to both everyday moments and romantic occasions.",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "f2ca5351-cfd7-4286-a4e8-537b0ed85a56",
+      "name": "Desire Nuit Perfume",
+      "price": 45.0,
+      "image": "/assets/04d415d4309e1a06.webp",
+      "images": [
+        "/assets/ef7c43dc88dfe39d.webp",
+        "/assets/d78a96acba6e7837.webp"
+      ],
+      "categoryIds": ["8ab7990f-68cf-49d3-a001-ee2c50956c95"],
+      "rating": 0,
+      "stockLabel": "5 left in stock",
+      "stock": 5,
+      "description": "Desire Nuit captures the mystery and allure of the night in a rich, expressive fragrance. Designed for evenings, romantic moments, and occasions when you want to leave a lasting impression.",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "9ade3f94-7cee-4a15-8690-81d1cd9f53ca",
+      "name": "Amber Muse Perfume",
+      "price": 45.0,
+      "image": "/assets/9ba26f1858287ee6.webp",
+      "images": [
+        "/assets/6b62e93d8b92a3c3.webp",
+        "/assets/e647b953d6e23b21.webp"
+      ],
+      "categoryIds": ["8ab7990f-68cf-49d3-a001-ee2c50956c95"],
+      "rating": 0,
+      "stockLabel": "5 left in stock",
+      "stock": 5,
+      "description": "Amber Muse wraps you in a warm and refined fragrance with a subtle sense of luxury. Its inviting character makes it a stylish choice for both everyday moments and special occasions.",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "fbbc8f70-250b-4f7c-8fa0-0bdaf0ba7196",
+      "name": "Elira Perfume",
+      "price": 45.0,
+      "image": "/assets/aa5ff0c95481baff.webp",
+      "images": [
+        "/assets/dc5060c1d51f7735.webp",
+        "/assets/231983e052f0a2c2.webp",
+        "/assets/48b82f55a45e0bb6.webp"
+      ],
+      "categoryIds": ["8ab7990f-68cf-49d3-a001-ee2c50956c95"],
+      "rating": 0,
+      "stockLabel": "10 left in stock",
+      "stock": 10,
+      "description": "Elira blends freshness and elegance into a light, harmonious fragrance. Its gentle aroma complements everyday style while adding a refined and effortless touch.",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "d62ee74e-27b3-47d4-9fc3-04efb4038bfe",
+      "name": "5 Chocolate-Covered Strawberries (Belgian Chocolate)",
+      "price": 21.99,
+      "image": "/assets/2fe04d4d3a884753.webp",
+      "images": ["/assets/364f5b928f349ec0.webp"],
+      "categoryIds": ["8dfe08cf-c3d3-449b-9a2f-e519fd666eac"],
+      "rating": 0,
+      "stockLabel": "4 left in stock",
+      "stock": 4,
+      "description": "",
+      "storeId": "81579e3e-8816-46d8-b749-6b350d5f36a5",
+      "storeName": "Choco Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "c2003720-2885-4081-bad9-b3a7531853fe",
+      "name": "5 White Chocolate-Covered Strawberries (Belgian Chocolate)",
+      "price": 21.99,
+      "image": "/assets/d39c492cb079402a.webp",
+      "images": ["/assets/053b85c88e5bc102.webp"],
+      "categoryIds": ["8dfe08cf-c3d3-449b-9a2f-e519fd666eac"],
+      "rating": 0,
+      "stockLabel": "5 left in stock",
+      "stock": 5,
+      "description": "",
+      "storeId": "81579e3e-8816-46d8-b749-6b350d5f36a5",
+      "storeName": "Choco Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "35e25700-7a4b-4da3-9c80-34a2a40ffd66",
+      "name": "5 Chocolate-Covered Strawberries (Belgian Chocolate)",
+      "price": 21.99,
+      "image": "/assets/c14f1212a9b2f947.webp",
+      "images": ["/assets/809ad0914233c163.webp"],
+      "categoryIds": ["8dfe08cf-c3d3-449b-9a2f-e519fd666eac"],
+      "rating": 0,
+      "stockLabel": "6 left in stock",
+      "stock": 6,
+      "description": "",
+      "storeId": "81579e3e-8816-46d8-b749-6b350d5f36a5",
+      "storeName": "Choco Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "db083edc-0896-4546-81c7-3db24138ca36",
+      "name": "9 Milk Chocolate-Covered Strawberries (Belgian Chocolate)",
+      "price": 37.99,
+      "image": "/assets/b59f18b57e80da05.webp",
+      "images": ["/assets/faacac24c5cf6f5b.webp"],
+      "categoryIds": ["8dfe08cf-c3d3-449b-9a2f-e519fd666eac"],
+      "rating": 0,
+      "stockLabel": "5 left in stock",
+      "stock": 5,
+      "description": "",
+      "storeId": "81579e3e-8816-46d8-b749-6b350d5f36a5",
+      "storeName": "Choco Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "eba300fb-8749-4eba-acf8-243b2584edd3",
+      "name": "9 White Chocolate-Covered Strawberries (Belgian Chocolate)",
+      "price": 37.99,
+      "image": "/assets/fd148a0d27145de1.webp",
+      "images": ["/assets/0ac84f3aeb760b91.webp"],
+      "categoryIds": ["8dfe08cf-c3d3-449b-9a2f-e519fd666eac"],
+      "rating": 0,
+      "stockLabel": "7 left in stock",
+      "stock": 7,
+      "description": "",
+      "storeId": "81579e3e-8816-46d8-b749-6b350d5f36a5",
+      "storeName": "Choco Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "b02a723d-d2fe-4218-b581-8d3bcf00ce6d",
+      "name": "9 Strawberries in White and Milk Chocolate (Belgian Chocolate)",
+      "price": 39.99,
+      "image": "/assets/640d6ca1933ccf03.webp",
+      "images": ["/assets/4b96b53c122cbd6a.webp"],
+      "categoryIds": ["8dfe08cf-c3d3-449b-9a2f-e519fd666eac"],
+      "rating": 0,
+      "stockLabel": "7 left in stock",
+      "stock": 7,
+      "description": "",
+      "storeId": "81579e3e-8816-46d8-b749-6b350d5f36a5",
+      "storeName": "Choco Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "94d59e1b-9655-463b-a965-1f835a7a7578",
+      "name": "9 Mini Chocolate-Covered Strawberries (Belgian Chocolate)",
+      "price": 37.99,
+      "image": "/assets/d00e501d7f0424ed.webp",
+      "images": ["/assets/bc28ba47bd025d21.webp"],
+      "categoryIds": ["8dfe08cf-c3d3-449b-9a2f-e519fd666eac"],
+      "rating": 0,
+      "stockLabel": "7 left in stock",
+      "stock": 7,
+      "description": "",
+      "storeId": "81579e3e-8816-46d8-b749-6b350d5f36a5",
+      "storeName": "Choco Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "db2161e7-3f80-46bd-9c0a-20148c129dd8",
+      "name": "Raffaello-Style Chocolate-Covered Strawberries (Belgian Chocolate)",
+      "price": 37.99,
+      "image": "/assets/3018b28d492dd7df.webp",
+      "images": ["/assets/b688bf82007417ad.webp"],
+      "categoryIds": ["8dfe08cf-c3d3-449b-9a2f-e519fd666eac"],
+      "rating": 0,
+      "stockLabel": "5 left in stock",
+      "stock": 5,
+      "description": "",
+      "storeId": "81579e3e-8816-46d8-b749-6b350d5f36a5",
+      "storeName": "Choco Baku",
+      "storeImage": ""
+    },
+    {
+      "id": "d4ee3877-0286-4f14-b01b-71e435b80c74",
+      "name": "Şekerci Cafer Erol Large Red Box Assorted Sweets & Chocolates Gift Set",
+      "price": 449.0,
+      "image": "/assets/d75c9a29e2ee934e.webp",
+      "images": ["/assets/6136da3cc95575f1.webp"],
+      "categoryIds": ["040f1aad-30dc-43ea-8d9c-bb9e7d713554"],
+      "rating": 0,
+      "stockLabel": "5 left in stock",
+      "stock": 5,
+      "description": "",
+      "storeId": "600676ae-1b56-44ad-a0ad-6337ffd23bfa",
+      "storeName": "House of flowers",
+      "storeImage": ""
+    },
+    {
+      "id": "1fc12d63-4b50-47ea-b2fb-92857bbecf5a",
+      "name": "NABAT AZERBAIJAN - Karabakh Collection",
+      "price": 99.0,
+      "image": "/assets/006efdf57ad40c8d.webp",
+      "images": ["/assets/5b7f8ab03461677f.webp"],
+      "categoryIds": ["9ba2bea8-d3e1-4f27-a0c8-28f5478f6d30"],
+      "rating": 0,
+      "stockLabel": "10 left in stock",
+      "stock": 10,
+      "description": "Size: 22 × 30 cm",
+      "storeId": "d77bda05-10a6-43a5-b385-2d2d9ccd43a1",
+      "storeName": "Nabat",
+      "storeImage": ""
+    },
+    {
+      "id": "f9f7a287-6272-41ba-9cae-9288b6702c11",
+      "name": "NABAT AZERBAIJAN - Golden Grains",
+      "price": 99.0,
+      "image": "/assets/dd7fe97ac6bc1511.webp",
+      "images": ["/assets/6cd05afec5b8a8b8.webp"],
+      "categoryIds": ["9ba2bea8-d3e1-4f27-a0c8-28f5478f6d30"],
+      "rating": 0,
+      "stockLabel": "6 left in stock",
+      "stock": 6,
+      "description": "Size: 22 × 30 cm",
+      "storeId": "d77bda05-10a6-43a5-b385-2d2d9ccd43a1",
+      "storeName": "Nabat",
+      "storeImage": ""
+    },
+    {
+      "id": "ae5f3f4d-a7fa-4f65-a296-54e79e150b73",
+      "name": "NABAT AZERBAIJAN - Prince Collection",
+      "price": 99.0,
+      "image": "/assets/5107f27249731e5a.webp",
+      "images": ["/assets/4de797f1db1df588.webp"],
+      "categoryIds": ["9ba2bea8-d3e1-4f27-a0c8-28f5478f6d30"],
+      "rating": 0,
+      "stockLabel": "5 left in stock",
+      "stock": 5,
+      "description": "Size: 22 × 30 cm",
+      "storeId": "d77bda05-10a6-43a5-b385-2d2d9ccd43a1",
+      "storeName": "Nabat",
+      "storeImage": ""
+    },
+    {
+      "id": "420de10d-6c16-4caa-b141-a4ac7774c449",
+      "name": "NABAT AZERBAIJAN - Pearl of the Night Collection",
+      "price": 49.0,
+      "image": "/assets/6d27344b70cb060c.webp",
+      "images": ["/assets/fbec64edaebb12ba.webp"],
+      "categoryIds": ["9ba2bea8-d3e1-4f27-a0c8-28f5478f6d30"],
+      "rating": 0,
+      "stockLabel": "7 left in stock",
+      "stock": 7,
+      "description": "Size: 19 × 19 cm",
+      "storeId": "d77bda05-10a6-43a5-b385-2d2d9ccd43a1",
+      "storeName": "Nabat",
+      "storeImage": ""
+    },
+    {
+      "id": "38ee3809-ec16-4128-bdec-78bb010dedf4",
+      "name": "NABAT AZERBAIJAN - Universe",
+      "price": 49.0,
+      "image": "/assets/57885861ec38349c.webp",
+      "images": ["/assets/2c5d0f244a9365dc.webp"],
+      "categoryIds": ["9ba2bea8-d3e1-4f27-a0c8-28f5478f6d30"],
+      "rating": 0,
+      "stockLabel": "7 left in stock",
+      "stock": 7,
+      "description": "Size: 19 × 19 cm",
+      "storeId": "d77bda05-10a6-43a5-b385-2d2d9ccd43a1",
+      "storeName": "Nabat",
+      "storeImage": ""
+    },
+    {
+      "id": "4e4e9866-509c-4c94-b4c0-a6e93310c957",
+      "name": "NABAT AZERBAIJAN - Simurgh Collection",
+      "price": 49.0,
+      "image": "/assets/685b762ebe0f6dda.webp",
+      "images": ["/assets/57bbeee010120b9b.webp"],
+      "categoryIds": ["9ba2bea8-d3e1-4f27-a0c8-28f5478f6d30"],
+      "rating": 0,
+      "stockLabel": "7 left in stock",
+      "stock": 7,
+      "description": "Size: 19 × 19 cm",
+      "storeId": "d77bda05-10a6-43a5-b385-2d2d9ccd43a1",
+      "storeName": "Nabat",
+      "storeImage": ""
+    },
+    {
+      "id": "328f0e23-3d8a-4495-a715-ea69618213a5",
+      "name": "NABAT AZERBAIJAN - Bahar Collection",
+      "price": 49.0,
+      "image": "/assets/9f2447959badcf1f.webp",
+      "images": ["/assets/c3769df723135f2a.webp"],
+      "categoryIds": ["9ba2bea8-d3e1-4f27-a0c8-28f5478f6d30"],
+      "rating": 0,
+      "stockLabel": "7 left in stock",
+      "stock": 7,
+      "description": "Size: 19 × 19 cm",
+      "storeId": "d77bda05-10a6-43a5-b385-2d2d9ccd43a1",
+      "storeName": "Nabat",
+      "storeImage": ""
+    },
+    {
+      "id": "725041c3-306a-4391-b40e-eadcb72a0fe1",
+      "name": "NABAT AZERBAIJAN - Gulustan Collection",
+      "price": 99.0,
+      "image": "/assets/e14b84d295bfc4a9.webp",
+      "images": ["/assets/416789c858af7fb8.webp"],
+      "categoryIds": ["9ba2bea8-d3e1-4f27-a0c8-28f5478f6d30"],
+      "rating": 0,
+      "stockLabel": "7 left in stock",
+      "stock": 7,
+      "description": "Size: 22 × 30 cm",
+      "storeId": "d77bda05-10a6-43a5-b385-2d2d9ccd43a1",
+      "storeName": "Nabat",
+      "storeImage": ""
+    },
+    {
+      "id": "6a183813-ba37-41e4-8be4-55d7fa070c0e",
+      "name": "ISHIQUE – Pumpkin-Shaped Candle",
+      "price": 10.0,
+      "image": "/assets/c4a39e28686142b9.webp",
+      "images": [
+        "/assets/c96a1631c3c8bbeb.webp",
+        "/assets/3e83e1459b456622.webp"
+      ],
+      "categoryIds": ["7f44da12-4743-46f5-8ed1-44d0b09998a6"],
+      "rating": 0,
+      "stockLabel": "10 left in stock",
+      "stock": 10,
+      "description": "",
+      "storeId": "0835a71f-0acf-44a8-9f4d-90ffb34c2f1a",
+      "storeName": "ISHIQUE",
+      "storeImage": ""
+    },
+    {
+      "id": "7f40778e-a64f-4cfa-b7df-4069ea91e6d4",
+      "name": "ISHIQUE – Deer Candle",
+      "price": 6.0,
+      "image": "/assets/ccc6cbd3d34d3bcc.webp",
+      "images": ["/assets/4b7b61bd3f3a1469.webp"],
+      "categoryIds": ["7f44da12-4743-46f5-8ed1-44d0b09998a6"],
+      "rating": 0,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "",
+      "storeId": "0835a71f-0acf-44a8-9f4d-90ffb34c2f1a",
+      "storeName": "ISHIQUE",
+      "storeImage": ""
+    },
+    {
+      "id": "29dd8625-53e4-4537-a1c3-c886b6933fdf",
+      "name": "ISHIQUE – Heart-Shaped Candle",
+      "price": 6.0,
+      "image": "/assets/657fa98391736fec.webp",
+      "images": ["/assets/955ba513a35045d8.webp"],
+      "categoryIds": ["7f44da12-4743-46f5-8ed1-44d0b09998a6"],
+      "rating": 0,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "",
+      "storeId": "0835a71f-0acf-44a8-9f4d-90ffb34c2f1a",
+      "storeName": "ISHIQUE",
+      "storeImage": ""
+    },
+    {
+      "id": "188c6d41-24fc-416c-93f5-c55fcf95952d",
+      "name": "ISHIQUE – Seashell Shaped Candle",
+      "price": 6.0,
+      "image": "/assets/cc1f8f3e4daad41e.webp",
+      "images": ["/assets/793e18829a7eecef.webp"],
+      "categoryIds": ["7f44da12-4743-46f5-8ed1-44d0b09998a6"],
+      "rating": 0,
+      "stockLabel": "8 left in stock",
+      "stock": 8,
+      "description": "",
+      "storeId": "0835a71f-0acf-44a8-9f4d-90ffb34c2f1a",
+      "storeName": "ISHIQUE",
+      "storeImage": ""
+    },
+    {
+      "id": "3cb68586-aaa1-4151-950b-b14bd4a9193a",
+      "name": "ISHIQUE – Strawberry-Shaped Candle",
+      "price": 4.0,
+      "image": "/assets/ad5833a43c5437d1.webp",
+      "images": ["/assets/14339dcbe7ef872c.webp"],
+      "categoryIds": ["7f44da12-4743-46f5-8ed1-44d0b09998a6"],
+      "rating": 0,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "",
+      "storeId": "0835a71f-0acf-44a8-9f4d-90ffb34c2f1a",
+      "storeName": "ISHIQUE",
+      "storeImage": ""
+    },
+    {
+      "id": "e63d8bd5-694c-484b-b5cc-2ed0267580ca",
+      "name": "ISHIQUE – Cloud-Shaped Candle",
+      "price": 7.0,
+      "image": "/assets/340b72d56223372a.webp",
+      "images": ["/assets/3601842767b44ef0.webp"],
+      "categoryIds": ["7f44da12-4743-46f5-8ed1-44d0b09998a6"],
+      "rating": 0,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "",
+      "storeId": "0835a71f-0acf-44a8-9f4d-90ffb34c2f1a",
+      "storeName": "ISHIQUE",
+      "storeImage": ""
+    },
+    {
+      "id": "da8cc231-08b1-4421-8d26-6bfb595a9f5f",
+      "name": "ISHIQUE – Pink Peony-Shaped Candle",
+      "price": 5.0,
+      "image": "/assets/cd9f2c860943da22.webp",
+      "images": ["/assets/dc506c3a7bfd95cc.webp"],
+      "categoryIds": ["7f44da12-4743-46f5-8ed1-44d0b09998a6"],
+      "rating": 0,
+      "stockLabel": "10 left in stock",
+      "stock": 10,
+      "description": "",
+      "storeId": "0835a71f-0acf-44a8-9f4d-90ffb34c2f1a",
+      "storeName": "ISHIQUE",
+      "storeImage": ""
+    },
+    {
+      "id": "3c9d0121-f4d2-41f2-a75f-48ff4e2d85da",
+      "name": "ISHIQUE – White Rose-Shaped Candle",
+      "price": 6.0,
+      "image": "/assets/6727c9eb88f37ce3.webp",
+      "images": ["/assets/74caf591c712c14e.webp"],
+      "categoryIds": ["7f44da12-4743-46f5-8ed1-44d0b09998a6"],
+      "rating": 0,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "",
+      "storeId": "0835a71f-0acf-44a8-9f4d-90ffb34c2f1a",
+      "storeName": "ISHIQUE",
+      "storeImage": ""
+    },
+    {
+      "id": "22dfec50-2b0c-46c3-9e88-4ff19488b243",
+      "name": "\"Titanic\" 2-in-1 1607-Piece Building Blocks Set",
+      "price": 75.0,
+      "image": "/assets/0eb72a3d175389ba.webp",
+      "images": ["/assets/1d658586c2f1a92b.webp"],
+      "categoryIds": ["53a048d7-6e7b-48c4-a0d0-6f2333a4c9a7"],
+      "rating": 0,
+      "stockLabel": "1 left in stock",
+      "stock": 1,
+      "description": "",
+      "storeId": "92197d06-bc0e-4cb4-b5a2-38ea05d23ae7",
+      "storeName": "Golden Gift",
+      "storeImage": ""
+    },
+    {
+      "id": "e13ef01c-256d-4144-bd26-50add5402dbd",
+      "name": "Zuanma Flowers Building Blocks Set - 322 PCS Plant and Flower Pot Model (NO.116, Ages 6+)",
+      "price": 30.0,
+      "image": "/assets/94593284a567a5b7.webp",
+      "images": ["/assets/559284ab0ced7e0f.webp"],
+      "categoryIds": ["53a048d7-6e7b-48c4-a0d0-6f2333a4c9a7"],
+      "rating": 0,
+      "stockLabel": "2 left in stock",
+      "stock": 2,
+      "description": "",
+      "storeId": "92197d06-bc0e-4cb4-b5a2-38ea05d23ae7",
+      "storeName": "Golden Gift",
+      "storeImage": ""
+    },
+    {
+      "id": "f692c001-fee0-494a-8560-3f64bd960c59",
+      "name": "Flower Bucket Flower Series Building Blocks Set - 8 Styles Plant and Flower Pots (MJ 13033)",
+      "price": 25.0,
+      "image": "/assets/85bdeccfeba020e4.webp",
+      "images": ["/assets/7882bafabd83e1cd.webp"],
+      "categoryIds": ["53a048d7-6e7b-48c4-a0d0-6f2333a4c9a7"],
+      "rating": 0,
+      "stockLabel": "2 left in stock",
+      "stock": 2,
+      "description": "",
+      "storeId": "92197d06-bc0e-4cb4-b5a2-38ea05d23ae7",
+      "storeName": "Golden Gift",
+      "storeImage": ""
+    },
+    {
+      "id": "2f3c6d4c-308b-44be-9005-001e4b7673d1",
+      "name": "Caribbean Plundering Black Pearl Pirate Ship Building Blocks Set (335+ Pieces / HY2707D)",
+      "price": 15.0,
+      "image": "/assets/5d2936e56cf4f1d5.webp",
+      "images": ["/assets/f345fa2a64b65f3d.webp"],
+      "categoryIds": ["53a048d7-6e7b-48c4-a0d0-6f2333a4c9a7"],
+      "rating": 0,
+      "stockLabel": "2 left in stock",
+      "stock": 2,
+      "description": "",
+      "storeId": "92197d06-bc0e-4cb4-b5a2-38ea05d23ae7",
+      "storeName": "Golden Gift",
+      "storeImage": ""
+    },
+    {
+      "id": "2f93373f-a659-4362-ad1e-cdb342707260",
+      "name": "Crazy Drag Racing Deluxe Edition Sports Car Building Blocks Set (QS08)",
+      "price": 35.0,
+      "image": "/assets/f952d74ff19b8ae4.webp",
+      "images": ["/assets/b1487d50c40d488b.webp"],
+      "categoryIds": ["53a048d7-6e7b-48c4-a0d0-6f2333a4c9a7"],
+      "rating": 0,
+      "stockLabel": "2 left in stock",
+      "stock": 2,
+      "description": "",
+      "storeId": "92197d06-bc0e-4cb4-b5a2-38ea05d23ae7",
+      "storeName": "Golden Gift",
+      "storeImage": ""
+    },
+    {
+      "id": "8e64a107-7fdc-4daa-b1c5-f0352c9342d1",
+      "name": "Lebadjia Ice and Snow Castle Building Blocks Set with Gold and Blue Details (No. LB2113)",
+      "price": 35.0,
+      "image": "/assets/dce53ebbe5f4bd7b.webp",
+      "images": ["/assets/222c6818af1cf621.webp"],
+      "categoryIds": ["53a048d7-6e7b-48c4-a0d0-6f2333a4c9a7"],
+      "rating": 0,
+      "stockLabel": "2 left in stock",
+      "stock": 2,
+      "description": "",
+      "storeId": "92197d06-bc0e-4cb4-b5a2-38ea05d23ae7",
+      "storeName": "Golden Gift",
+      "storeImage": ""
+    },
+    {
+      "id": "0fc8ad26-bd10-4e08-868d-dc13811a7353",
+      "name": "Lebadjia Ice and Snow Princess Castle Building Blocks Set (462 Pieces / No. LB2113)",
+      "price": 35.0,
+      "image": "/assets/495d2d085a073b58.webp",
+      "images": ["/assets/4f8b6a1ebbd523f0.webp"],
+      "categoryIds": ["53a048d7-6e7b-48c4-a0d0-6f2333a4c9a7"],
+      "rating": 0,
+      "stockLabel": "2 left in stock",
+      "stock": 2,
+      "description": "",
+      "storeId": "92197d06-bc0e-4cb4-b5a2-38ea05d23ae7",
+      "storeName": "Golden Gift",
+      "storeImage": ""
+    },
+    {
+      "id": "609372ae-81ae-4d55-89c4-9e331c045017",
+      "name": "Cute Kitten Among Sunflowers 300-Piece Art Puzzle",
+      "price": 13.99,
+      "image": "/assets/0e0706ac7e62b384.webp",
+      "images": ["/assets/6f4c568f5b790bbf.webp"],
+      "categoryIds": ["53a048d7-6e7b-48c4-a0d0-6f2333a4c9a7"],
+      "rating": 0,
+      "stockLabel": "2 left in stock",
+      "stock": 2,
+      "description": "",
+      "storeId": "92197d06-bc0e-4cb4-b5a2-38ea05d23ae7",
+      "storeName": "Golden Gift",
+      "storeImage": ""
+    },
+    {
+      "id": "c544256e-fe9d-441b-8887-1e6e1e45ace0",
+      "name": "Pink Tweed Cosmetic Bag",
+      "price": 45.0,
+      "image": "/assets/077c4f94864e9c0f.webp",
+      "images": ["/assets/9dd66b71ccf58dea.webp"],
+      "categoryIds": ["8a15d286-14ef-45a1-97b3-10a0cde8af65"],
+      "rating": 0,
+      "stockLabel": "7 left in stock",
+      "stock": 7,
+      "description": "",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "60da7f66-fc0a-40ef-b46f-1ef1df498bf8",
+      "name": "Capricorn Bag",
+      "price": 44.99,
+      "image": "/assets/dd9c32d02ec5c2e5.webp",
+      "images": ["/assets/183f8eeb5bc6b629.webp"],
+      "categoryIds": ["8a15d286-14ef-45a1-97b3-10a0cde8af65"],
+      "rating": 0,
+      "stockLabel": "8 left in stock",
+      "stock": 8,
+      "description": "",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "ba793bb1-79ca-45c1-83b2-494a39caee60",
+      "name": "Aries Bag",
+      "price": 45.0,
+      "image": "/assets/d31c545e64fb107d.webp",
+      "images": ["/assets/a98df2700a5b9696.webp"],
+      "categoryIds": ["8a15d286-14ef-45a1-97b3-10a0cde8af65"],
+      "rating": 0,
+      "stockLabel": "9 left in stock",
+      "stock": 9,
+      "description": "",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "3698ac7c-1386-44b6-b576-33b8d12b0ef3",
+      "name": "Aquarius Cosmetic Bag",
+      "price": 34.99,
+      "image": "/assets/4971f113b0fae346.webp",
+      "images": ["/assets/b04c85f07a92b9b8.webp"],
+      "categoryIds": ["8a15d286-14ef-45a1-97b3-10a0cde8af65"],
+      "rating": 0,
+      "stockLabel": "3 left in stock",
+      "stock": 3,
+      "description": "",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "266e14ec-b952-4e6e-807e-e6ed315b1a2c",
+      "name": "Red Tweed Bag",
+      "price": 95.0,
+      "image": "/assets/479e0b6b83d18cf0.webp",
+      "images": ["/assets/f65423da904000af.webp"],
+      "categoryIds": ["8a15d286-14ef-45a1-97b3-10a0cde8af65"],
+      "rating": 0,
+      "stockLabel": "6 left in stock",
+      "stock": 6,
+      "description": "",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "3466075a-508e-45b4-aad5-87849aa6048e",
+      "name": "Blue Tweed Bag",
+      "price": 95.0,
+      "image": "/assets/73e1db654e2ff12c.webp",
+      "images": ["/assets/7927af30fa39b954.webp"],
+      "categoryIds": ["8a15d286-14ef-45a1-97b3-10a0cde8af65"],
+      "rating": 0,
+      "stockLabel": "6 left in stock",
+      "stock": 6,
+      "description": "",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "489ea05c-de92-4def-807f-8bfb57bb265c",
+      "name": "Red Tweed Cosmetic Bag",
+      "price": 34.99,
+      "image": "/assets/8f6b917270f329c3.webp",
+      "images": ["/assets/1ec8540b48f6fb6a.webp"],
+      "categoryIds": ["8a15d286-14ef-45a1-97b3-10a0cde8af65"],
+      "rating": 0,
+      "stockLabel": "9 left in stock",
+      "stock": 9,
+      "description": "",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "4b415b7b-544f-46ba-84dd-97e87427e7ee",
+      "name": "Blue Cosmetic Bag",
+      "price": 35.0,
+      "image": "/assets/f520debb2cc74695.webp",
+      "images": ["/assets/a233504b17970e91.webp"],
+      "categoryIds": ["8a15d286-14ef-45a1-97b3-10a0cde8af65"],
+      "rating": 0,
+      "stockLabel": "9 left in stock",
+      "stock": 9,
+      "description": "",
+      "storeId": "03c1e39b-3964-40b5-950f-85250d0c58fe",
+      "storeName": "Babayeva Bags",
+      "storeImage": ""
+    },
+    {
+      "id": "8ab5887b-390b-4c87-8c26-22c07644cbed",
+      "name": "pink bouquet",
+      "price": 50.0,
+      "image": "/assets/d8d42da2fd4d486e.webp",
+      "images": ["/assets/f8dd8bbe2755e7a6.webp"],
+      "categoryIds": [],
+      "rating": 0,
+      "stockLabel": "1",
+      "stock": 20,
+      "description": "pink",
+      "storeId": "600676ae-1b56-44ad-a0ad-6337ffd23bfa",
+      "storeName": "House of flowers",
+      "storeImage": "",
+      "width": "0.4",
+      "height": "0.5"
+    }
+  ]
+}

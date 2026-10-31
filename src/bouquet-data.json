@@ -1,0 +1,1283 @@
+{
+  "categories": [
+    "All",
+    "Alstroemeria",
+    "Günəbaxan",
+    "Anthurium",
+    "Nutan",
+    "Freesia",
+    "Anemone",
+    "Campanula",
+    "Allium",
+    "Agapanthus",
+    "Ornithogalum",
+    "Amaryllis",
+    "Antirrhinum",
+    "Narcissus",
+    "Strelitzia",
+    "Scabiosa",
+    "Astrantia",
+    "Brassica",
+    "Lily",
+    "Delphinium",
+    "Clematis",
+    "Ranunculus",
+    "Craspedia",
+    "Carnation",
+    "Tulip",
+    "Gladiolus",
+    "Hydrangea",
+    "Calla",
+    "Orchid",
+    "Gerbera",
+    "Eustoma",
+    "Rose",
+    "Chrysanthemum"
+  ],
+  "flowers": [
+    {
+      "id": "flower-1",
+      "name": "White Alstroemeria",
+      "image": "/assets/bouquet/5ef30a850b114be6.webp",
+      "price": 3,
+      "category": "Alstroemeria"
+    },
+    {
+      "id": "flower-2",
+      "name": "Pink Alstroemeria",
+      "image": "/assets/bouquet/7230baf638937049.webp",
+      "price": 3,
+      "category": "Alstroemeria"
+    },
+    {
+      "id": "flower-3",
+      "name": "Pink Double Oriental Lily",
+      "image": "/assets/bouquet/a717d7385a5b274b.webp",
+      "price": 3,
+      "category": "Lily"
+    },
+    {
+      "id": "flower-4",
+      "name": "Sunflower",
+      "image": "/assets/bouquet/7f840b7b7d416104.webp",
+      "price": 3,
+      "category": "Günəbaxan"
+    },
+    {
+      "id": "flower-5",
+      "name": "White Chrysanthemum",
+      "image": "/assets/bouquet/65964b3b102e2ada.webp",
+      "price": 3,
+      "category": "Chrysanthemum"
+    },
+    {
+      "id": "flower-6",
+      "name": "Pink Chrysanthemum",
+      "image": "/assets/bouquet/b115113fe81d4938.webp",
+      "price": 3,
+      "category": "Chrysanthemum"
+    },
+    {
+      "id": "flower-7",
+      "name": "White Anthurium",
+      "image": "/assets/bouquet/d51782fd6ef72d04.webp",
+      "price": 3,
+      "category": "Anthurium"
+    },
+    {
+      "id": "flower-8",
+      "name": "Red Anthurium",
+      "image": "/assets/bouquet/6033b821229e04c0.webp",
+      "price": 3,
+      "category": "Anthurium"
+    },
+    {
+      "id": "flower-9",
+      "name": "Blue Mondial",
+      "image": "/assets/bouquet/e33882e0e307f204.webp",
+      "price": 3,
+      "category": "Rose"
+    },
+    {
+      "id": "flower-10",
+      "name": "Orange Nutan",
+      "image": "/assets/bouquet/a0950e062d639db8.webp",
+      "price": 3,
+      "category": "Nutan"
+    },
+    {
+      "id": "flower-11",
+      "name": "Green Cymbidium Orchid",
+      "image": "/assets/bouquet/8f0abfbb2a1a7298.webp",
+      "price": 3,
+      "category": "Orchid"
+    },
+    {
+      "id": "flower-12",
+      "name": "White Cymbidium Orchid",
+      "image": "/assets/bouquet/5546292f56f4c515.webp",
+      "price": 3,
+      "category": "Orchid"
+    },
+    {
+      "id": "flower-13",
+      "name": "Red Cymbidium Orchid",
+      "image": "/assets/bouquet/40b909e07a2ff8d0.webp",
+      "price": 3,
+      "category": "Orchid"
+    },
+    {
+      "id": "flower-14",
+      "name": "Light Pink Spray Rose",
+      "image": "/assets/bouquet/76debbea09cb1e27.webp",
+      "price": 3,
+      "category": "Rose"
+    },
+    {
+      "id": "flower-15",
+      "name": "White Freesia",
+      "image": "/assets/bouquet/ee7aa0ac6da77de4.webp",
+      "price": 3,
+      "category": "Freesia"
+    },
+    {
+      "id": "flower-16",
+      "name": "White Campanula",
+      "image": "/assets/bouquet/9be0b47b2298e21c.webp",
+      "price": 3,
+      "category": "Campanula"
+    },
+    {
+      "id": "flower-17",
+      "name": "Pink Campanula",
+      "image": "/assets/bouquet/da874ff1bdf4e3fc.webp",
+      "price": 3,
+      "category": "Campanula"
+    },
+    {
+      "id": "flower-18",
+      "name": "Peach Gerbera",
+      "image": "/assets/bouquet/6fe8e9662e1b407c.webp",
+      "price": 3,
+      "category": "Gerbera"
+    },
+    {
+      "id": "flower-19",
+      "name": "Purple Spray Eustoma",
+      "image": "/assets/bouquet/67f3615eba5115bd.webp",
+      "price": 3,
+      "category": "Eustoma"
+    },
+    {
+      "id": "flower-20",
+      "name": "Purple Anemone",
+      "image": "/assets/bouquet/c6c6380d90a738fa.webp",
+      "price": 3,
+      "category": "Anemone"
+    },
+    {
+      "id": "flower-21",
+      "name": "Purple Campanula",
+      "image": "/assets/bouquet/deb2238fcf1c3baf.webp",
+      "price": 3,
+      "category": "Campanula"
+    },
+    {
+      "id": "flower-22",
+      "name": "Light Salmon Gerbera",
+      "image": "/assets/bouquet/4a69740b9193b60d.webp",
+      "price": 3,
+      "category": "Gerbera"
+    },
+    {
+      "id": "flower-23",
+      "name": "Yellow & Red Gerbera",
+      "image": "/assets/bouquet/0c59842baae2f9cd.webp",
+      "price": 3,
+      "category": "Gerbera"
+    },
+    {
+      "id": "flower-24",
+      "name": "Purple Allium",
+      "image": "/assets/bouquet/77433793bafa98a3.webp",
+      "price": 3,
+      "category": "Allium"
+    },
+    {
+      "id": "flower-25",
+      "name": "Double Salmon Gerbera",
+      "image": "/assets/bouquet/86c581f937b6cc19.webp",
+      "price": 3,
+      "category": "Gerbera"
+    },
+    {
+      "id": "flower-26",
+      "name": "Vintage Pink Carnation",
+      "image": "/assets/bouquet/f036fb6d731681d8.webp",
+      "price": 3,
+      "category": "Carnation"
+    },
+    {
+      "id": "flower-27",
+      "name": "Lavender Delphinium",
+      "image": "/assets/bouquet/31abaa6656d9408b.webp",
+      "price": 3,
+      "category": "Delphinium"
+    },
+    {
+      "id": "flower-28",
+      "name": "White Amaryllis",
+      "image": "/assets/bouquet/5c377bab597c5e08.webp",
+      "price": 3,
+      "category": "Amaryllis"
+    },
+    {
+      "id": "flower-29",
+      "name": "Yellow Antirrhinum",
+      "image": "/assets/bouquet/3ca5e995cd920f6d.webp",
+      "price": 3,
+      "category": "Antirrhinum"
+    },
+    {
+      "id": "flower-30",
+      "name": "Purple Agapanthus",
+      "image": "/assets/bouquet/6718e2ab00b8f0bc.webp",
+      "price": 3,
+      "category": "Agapanthus"
+    },
+    {
+      "id": "flower-31",
+      "name": "White Ornithogalum",
+      "image": "/assets/bouquet/3d277f1640bc5baf.webp",
+      "price": 3,
+      "category": "Ornithogalum"
+    },
+    {
+      "id": "flower-32",
+      "name": "Pink Snapdragon",
+      "image": "/assets/bouquet/4f48021ed76e7d1e.webp",
+      "price": 3,
+      "category": "Antirrhinum"
+    },
+    {
+      "id": "flower-33",
+      "name": "Light Pink Spray Carnation",
+      "image": "/assets/bouquet/454980b46dea4a8b.webp",
+      "price": 3,
+      "category": "Carnation"
+    },
+    {
+      "id": "flower-34",
+      "name": "Pink Spray Carnation",
+      "image": "/assets/bouquet/45cbda15167e78a9.webp",
+      "price": 3,
+      "category": "Carnation"
+    },
+    {
+      "id": "flower-35",
+      "name": "Large Red Amaryllis",
+      "image": "/assets/bouquet/b13ad5354d76dde3.webp",
+      "price": 3,
+      "category": "Amaryllis"
+    },
+    {
+      "id": "flower-36",
+      "name": "Light Pink Carnation",
+      "image": "/assets/bouquet/dcb6c614c72bc5c6.webp",
+      "price": 3,
+      "category": "Carnation"
+    },
+    {
+      "id": "flower-37",
+      "name": "Red Mini Amaryllis",
+      "image": "/assets/bouquet/bdacec8b518b7d88.webp",
+      "price": 3,
+      "category": "Amaryllis"
+    },
+    {
+      "id": "flower-38",
+      "name": "Burgundy & White Carnation",
+      "image": "/assets/bouquet/b6cb6ad6ca856600.webp",
+      "price": 3,
+      "category": "Carnation"
+    },
+    {
+      "id": "flower-39",
+      "name": "Purple Tulip",
+      "image": "/assets/bouquet/487b6cdf18e6cbf4.webp",
+      "price": 3,
+      "category": "Tulip"
+    },
+    {
+      "id": "flower-40",
+      "name": "Pink & White Tulip",
+      "image": "/assets/bouquet/5b592d7d29fb48f2.webp",
+      "price": 3,
+      "category": "Tulip"
+    },
+    {
+      "id": "flower-41",
+      "name": "White Tulip",
+      "image": "/assets/bouquet/6304df0ed0a6a227.webp",
+      "price": 3,
+      "category": "Tulip"
+    },
+    {
+      "id": "flower-42",
+      "name": "Yellow & Pink Carnation",
+      "image": "/assets/bouquet/f18fbd284ad626a8.webp",
+      "price": 3,
+      "category": "Carnation"
+    },
+    {
+      "id": "flower-43",
+      "name": "Blush Spray Ranunculus",
+      "image": "/assets/bouquet/ca78cf9b60174a61.webp",
+      "price": 3,
+      "category": "Ranunculus"
+    },
+    {
+      "id": "flower-44",
+      "name": "Magenta Gerbera",
+      "image": "/assets/bouquet/aac9f2a0d2e5702f.webp",
+      "price": 3,
+      "category": "Gerbera"
+    },
+    {
+      "id": "flower-45",
+      "name": "White & Orange Narcissus",
+      "image": "/assets/bouquet/99efd36a2b5cfe0d.webp",
+      "price": 3,
+      "category": "Narcissus"
+    },
+    {
+      "id": "flower-46",
+      "name": "Light Blue Delphinium",
+      "image": "/assets/bouquet/a143a1865fdfa3c3.webp",
+      "price": 3,
+      "category": "Delphinium"
+    },
+    {
+      "id": "flower-47",
+      "name": "Yellow Narcissus",
+      "image": "/assets/bouquet/1430147c2281248c.webp",
+      "price": 3,
+      "category": "Narcissus"
+    },
+    {
+      "id": "flower-48",
+      "name": "Pink Spray Chrysanthemum",
+      "image": "/assets/bouquet/6d0852890e6b11b4.webp",
+      "price": 3,
+      "category": "Chrysanthemum"
+    },
+    {
+      "id": "flower-49",
+      "name": "White Spray Ranunculus",
+      "image": "/assets/bouquet/97aaa64d5387da97.webp",
+      "price": 3,
+      "category": "Ranunculus"
+    },
+    {
+      "id": "flower-50",
+      "name": "Orange Strelitzia",
+      "image": "/assets/bouquet/dc162ec34fb1e669.webp",
+      "price": 3,
+      "category": "Strelitzia"
+    }
+  ],
+  "bases": [
+    {
+      "id": "base-1",
+      "name": "Purple Statue Head Planter",
+      "image": "/assets/bouquet/84c5481dda6998c7.webp",
+      "price": 7
+    },
+    {
+      "id": "base-2",
+      "name": "Pink Statue Head Planter",
+      "image": "/assets/bouquet/4bafa1780681fc7b.webp",
+      "price": 7
+    },
+    {
+      "id": "base-3",
+      "name": "Gold Statue Head Planter",
+      "image": "/assets/bouquet/03a14763678a2646.webp",
+      "price": 7
+    },
+    {
+      "id": "base-4",
+      "name": "Green David Statue Head Planter",
+      "image": "/assets/bouquet/38f185109f0039e6.webp",
+      "price": 7
+    },
+    {
+      "id": "base-5",
+      "name": "Purple Tree Bark Effect Round Pot",
+      "image": "/assets/bouquet/38f80715a734b3eb.webp",
+      "price": 7
+    },
+    {
+      "id": "base-6",
+      "name": "Pink Tree Bark Effect Round Pot",
+      "image": "/assets/bouquet/1b56945ea5448205.webp",
+      "price": 7
+    },
+    {
+      "id": "base-7",
+      "name": "Red Tree Bark Effect Round Pot",
+      "image": "/assets/bouquet/43709d1cb6732048.webp",
+      "price": 7
+    },
+    {
+      "id": "base-8",
+      "name": "Yellow Tree Bark Effect Round Pot",
+      "image": "/assets/bouquet/ddefda91e6eb7dc8.webp",
+      "price": 7
+    },
+    {
+      "id": "base-9",
+      "name": "Green Tree Bark Effect Round Pot",
+      "image": "/assets/bouquet/27975b01a0702798.webp",
+      "price": 7
+    }
+  ],
+  "decors": [
+    {
+      "id": "decor-1",
+      "name": "Mustard Yellow Wrapping Paper",
+      "image": "/assets/bouquet/8187209be199f677.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-2",
+      "name": "Dark Pink Wrapping Paper",
+      "image": "/assets/bouquet/2c54a256f964ad22.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-3",
+      "name": "Dark Grey Matte Wrapping Paper",
+      "image": "/assets/bouquet/7b8226f4e61dab1f.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-4",
+      "name": "Peach Wrapping Paper",
+      "image": "/assets/bouquet/8a9c42db51fe7525.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-5",
+      "name": "Gold Wrapping Paper",
+      "image": "/assets/bouquet/843d35f3eef5afd1.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-6",
+      "name": "Matte Black Wrapping Paper",
+      "image": "/assets/bouquet/016ab81a5b400ab8.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-7",
+      "name": "Brown Wrapping Paper",
+      "image": "/assets/bouquet/12a37ec51446d270.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-8",
+      "name": "Pink Wrapping Paper",
+      "image": "/assets/bouquet/2e633619a7076133.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-9",
+      "name": "Light Green Wrapping Paper",
+      "image": "/assets/bouquet/ad3c024a150515a8.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-10",
+      "name": "Lilac Wrapping Paper",
+      "image": "/assets/bouquet/684b339e8889335e.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-11",
+      "name": "Beige Wrapping Paper",
+      "image": "/assets/bouquet/a7bc6ab4bcca9020.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-12",
+      "name": "Mint Green Wrapping Paper",
+      "image": "/assets/bouquet/7b8cd184864dddba.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-13",
+      "name": "Grey Wrapping Paper",
+      "image": "/assets/bouquet/07569d169bcab575.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-14",
+      "name": "Cream Wrapping Paper",
+      "image": "/assets/bouquet/cd08764d5550e67a.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-15",
+      "name": "Purple Wrapping Paper",
+      "image": "/assets/bouquet/c45b1d7a1ece1919.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-16",
+      "name": "Sky Blue Wrapping Paper",
+      "image": "/assets/bouquet/9220f3b331abd42d.webp",
+      "price": 0.2,
+      "type": "decor"
+    },
+    {
+      "id": "decor-17",
+      "name": "White Satin Ribbon",
+      "image": "/assets/bouquet/36c1363447b8e348.webp",
+      "price": 0.1,
+      "type": "ribbon"
+    },
+    {
+      "id": "decor-18",
+      "name": "Navy Blue Satin Ribbon",
+      "image": "/assets/bouquet/cc641707e4cec5d9.webp",
+      "price": 0.1,
+      "type": "ribbon"
+    },
+    {
+      "id": "decor-19",
+      "name": "Pink Satin Ribbon",
+      "image": "/assets/bouquet/30f0e1e78b875a19.webp",
+      "price": 0.1,
+      "type": "ribbon"
+    }
+  ],
+  "store": {
+    "id": "aes-flowers",
+    "name": "Aes Flowers",
+    "image": "/assets/bouquet/bfd256a916a5d017.webp"
+  },
+  "canvasPoints": [
+    {
+      "x": 50.0,
+      "y": 50.0
+    },
+    {
+      "x": 57.2,
+      "y": 50.0
+    },
+    {
+      "x": 53.6,
+      "y": 56.23539
+    },
+    {
+      "x": 46.4,
+      "y": 56.23539
+    },
+    {
+      "x": 42.8,
+      "y": 50.0
+    },
+    {
+      "x": 46.4,
+      "y": 43.76461
+    },
+    {
+      "x": 53.6,
+      "y": 43.76461
+    },
+    {
+      "x": 61.74419,
+      "y": 53.44841
+    },
+    {
+      "x": 58.01549,
+      "y": 59.25036
+    },
+    {
+      "x": 51.74193,
+      "y": 62.11542
+    },
+    {
+      "x": 44.91531,
+      "y": 61.13391
+    },
+    {
+      "x": 39.70305,
+      "y": 56.61745
+    },
+    {
+      "x": 37.76,
+      "y": 50.0
+    },
+    {
+      "x": 39.70305,
+      "y": 43.38255
+    },
+    {
+      "x": 44.91531,
+      "y": 38.86609
+    },
+    {
+      "x": 51.74193,
+      "y": 37.88458
+    },
+    {
+      "x": 58.01549,
+      "y": 40.74964
+    },
+    {
+      "x": 61.74419,
+      "y": 46.55159
+    },
+    {
+      "x": 67.28,
+      "y": 50.0
+    },
+    {
+      "x": 65.78607,
+      "y": 57.02841
+    },
+    {
+      "x": 61.56258,
+      "y": 62.84154
+    },
+    {
+      "x": 55.33982,
+      "y": 66.43424
+    },
+    {
+      "x": 48.19375,
+      "y": 67.18534
+    },
+    {
+      "x": 41.36,
+      "y": 64.96492
+    },
+    {
+      "x": 36.02018,
+      "y": 60.15693
+    },
+    {
+      "x": 33.0976,
+      "y": 53.59271
+    },
+    {
+      "x": 33.0976,
+      "y": 46.40729
+    },
+    {
+      "x": 36.02018,
+      "y": 39.84307
+    },
+    {
+      "x": 41.36,
+      "y": 35.03508
+    },
+    {
+      "x": 48.19375,
+      "y": 32.81466
+    },
+    {
+      "x": 55.33982,
+      "y": 33.56576
+    },
+    {
+      "x": 61.56258,
+      "y": 37.15846
+    },
+    {
+      "x": 65.78607,
+      "y": 42.97159
+    },
+    {
+      "x": 72.01557,
+      "y": 53.67375
+    },
+    {
+      "x": 69.62984,
+      "y": 60.62315
+    },
+    {
+      "x": 65.11693,
+      "y": 66.42135
+    },
+    {
+      "x": 58.96583,
+      "y": 70.44005
+    },
+    {
+      "x": 51.84317,
+      "y": 72.24378
+    },
+    {
+      "x": 44.52076,
+      "y": 71.63701
+    },
+    {
+      "x": 37.79211,
+      "y": 68.68555
+    },
+    {
+      "x": 32.38638,
+      "y": 63.70922
+    },
+    {
+      "x": 28.88935,
+      "y": 57.24729
+    },
+    {
+      "x": 27.68,
+      "y": 50.0
+    },
+    {
+      "x": 28.88935,
+      "y": 42.75271
+    },
+    {
+      "x": 32.38638,
+      "y": 36.29078
+    },
+    {
+      "x": 37.79211,
+      "y": 31.31445
+    },
+    {
+      "x": 44.52076,
+      "y": 28.36299
+    },
+    {
+      "x": 51.84317,
+      "y": 27.75622
+    },
+    {
+      "x": 58.96583,
+      "y": 29.55995
+    },
+    {
+      "x": 65.11693,
+      "y": 33.57865
+    },
+    {
+      "x": 69.62984,
+      "y": 39.37685
+    },
+    {
+      "x": 72.01557,
+      "y": 46.32625
+    },
+    {
+      "x": 77.3599,
+      "y": 50.0
+    },
+    {
+      "x": 76.4276,
+      "y": 57.0813
+    },
+    {
+      "x": 73.69445,
+      "y": 63.68
+    },
+    {
+      "x": 69.34643,
+      "y": 69.34643
+    },
+    {
+      "x": 63.68,
+      "y": 73.69445
+    },
+    {
+      "x": 57.0813,
+      "y": 76.4276
+    },
+    {
+      "x": 50.0,
+      "y": 77.3599
+    },
+    {
+      "x": 42.9187,
+      "y": 76.4276
+    },
+    {
+      "x": 36.32,
+      "y": 73.69445
+    },
+    {
+      "x": 30.65357,
+      "y": 69.34643
+    },
+    {
+      "x": 26.30555,
+      "y": 63.68
+    },
+    {
+      "x": 23.5724,
+      "y": 57.0813
+    },
+    {
+      "x": 22.6401,
+      "y": 50.0
+    },
+    {
+      "x": 23.5724,
+      "y": 42.9187
+    },
+    {
+      "x": 26.30555,
+      "y": 36.32
+    },
+    {
+      "x": 30.65357,
+      "y": 30.65357
+    },
+    {
+      "x": 36.32,
+      "y": 26.30555
+    },
+    {
+      "x": 42.9187,
+      "y": 23.5724
+    },
+    {
+      "x": 50.0,
+      "y": 22.6401
+    },
+    {
+      "x": 57.0813,
+      "y": 23.5724
+    },
+    {
+      "x": 63.68,
+      "y": 26.30555
+    },
+    {
+      "x": 69.34643,
+      "y": 30.65357
+    },
+    {
+      "x": 73.69445,
+      "y": 36.32
+    },
+    {
+      "x": 76.4276,
+      "y": 42.9187
+    },
+    {
+      "x": 82.19635,
+      "y": 53.62766
+    },
+    {
+      "x": 80.58177,
+      "y": 60.70104
+    },
+    {
+      "x": 77.43385,
+      "y": 67.23784
+    },
+    {
+      "x": 72.91026,
+      "y": 72.91026
+    },
+    {
+      "x": 67.23784,
+      "y": 77.43385
+    },
+    {
+      "x": 60.70104,
+      "y": 80.58177
+    },
+    {
+      "x": 53.62766,
+      "y": 82.19635
+    },
+    {
+      "x": 46.37234,
+      "y": 82.19635
+    },
+    {
+      "x": 39.29896,
+      "y": 80.58177
+    },
+    {
+      "x": 32.76216,
+      "y": 77.43385
+    },
+    {
+      "x": 27.08974,
+      "y": 72.91026
+    },
+    {
+      "x": 22.56615,
+      "y": 67.23784
+    },
+    {
+      "x": 19.41823,
+      "y": 60.70104
+    },
+    {
+      "x": 17.80365,
+      "y": 53.62766
+    },
+    {
+      "x": 17.80365,
+      "y": 46.37234
+    },
+    {
+      "x": 19.41823,
+      "y": 39.29896
+    },
+    {
+      "x": 22.56615,
+      "y": 32.76216
+    },
+    {
+      "x": 27.08974,
+      "y": 27.08974
+    },
+    {
+      "x": 32.76216,
+      "y": 22.56615
+    },
+    {
+      "x": 39.29896,
+      "y": 19.41823
+    },
+    {
+      "x": 46.37234,
+      "y": 17.80365
+    },
+    {
+      "x": 53.62766,
+      "y": 17.80365
+    },
+    {
+      "x": 60.70104,
+      "y": 19.41823
+    },
+    {
+      "x": 67.23784,
+      "y": 22.56615
+    },
+    {
+      "x": 72.91026,
+      "y": 27.08974
+    },
+    {
+      "x": 77.43385,
+      "y": 32.76216
+    },
+    {
+      "x": 80.58177,
+      "y": 39.29896
+    },
+    {
+      "x": 82.19635,
+      "y": 46.37234
+    },
+    {
+      "x": 87.4401,
+      "y": 50.0
+    },
+    {
+      "x": 86.76328,
+      "y": 57.08557
+    },
+    {
+      "x": 84.75807,
+      "y": 63.91505
+    },
+    {
+      "x": 81.49661,
+      "y": 70.24159
+    },
+    {
+      "x": 77.09661,
+      "y": 75.83656
+    },
+    {
+      "x": 71.71732,
+      "y": 80.49766
+    },
+    {
+      "x": 65.55315,
+      "y": 84.05651
+    },
+    {
+      "x": 58.82682,
+      "y": 86.38464
+    },
+    {
+      "x": 51.78147,
+      "y": 87.39766
+    },
+    {
+      "x": 44.67174,
+      "y": 87.05885
+    },
+    {
+      "x": 37.75458,
+      "y": 85.38073
+    },
+    {
+      "x": 31.28,
+      "y": 82.42396
+    },
+    {
+      "x": 25.48201,
+      "y": 78.29531
+    },
+    {
+      "x": 20.57005,
+      "y": 73.14388
+    },
+    {
+      "x": 16.72188,
+      "y": 67.15599
+    },
+    {
+      "x": 14.07656,
+      "y": 60.54807
+    },
+    {
+      "x": 12.72943,
+      "y": 53.55891
+    },
+    {
+      "x": 12.72943,
+      "y": 46.44109
+    },
+    {
+      "x": 14.07656,
+      "y": 39.45193
+    },
+    {
+      "x": 16.72188,
+      "y": 32.84401
+    },
+    {
+      "x": 20.57005,
+      "y": 26.85612
+    },
+    {
+      "x": 25.48201,
+      "y": 21.70469
+    },
+    {
+      "x": 31.28,
+      "y": 17.57604
+    },
+    {
+      "x": 37.75458,
+      "y": 14.61927
+    },
+    {
+      "x": 44.67174,
+      "y": 12.94115
+    },
+    {
+      "x": 51.78147,
+      "y": 12.60234
+    },
+    {
+      "x": 58.82682,
+      "y": 13.61536
+    },
+    {
+      "x": 65.55315,
+      "y": 15.94349
+    },
+    {
+      "x": 71.71732,
+      "y": 19.50234
+    },
+    {
+      "x": 77.09661,
+      "y": 24.16344
+    },
+    {
+      "x": 81.49661,
+      "y": 29.75841
+    },
+    {
+      "x": 84.75807,
+      "y": 36.08495
+    },
+    {
+      "x": 86.76328,
+      "y": 42.91443
+    },
+    {
+      "x": 92.32708,
+      "y": 53.60255
+    },
+    {
+      "x": 91.10938,
+      "y": 60.70404
+    },
+    {
+      "x": 88.70911,
+      "y": 67.49755
+    },
+    {
+      "x": 85.19505,
+      "y": 73.78773
+    },
+    {
+      "x": 80.66875,
+      "y": 79.39349
+    },
+    {
+      "x": 75.26003,
+      "y": 84.15391
+    },
+    {
+      "x": 69.12466,
+      "y": 87.93151
+    },
+    {
+      "x": 62.43911,
+      "y": 90.61797
+    },
+    {
+      "x": 55.39573,
+      "y": 92.13594
+    },
+    {
+      "x": 48.1971,
+      "y": 92.44167
+    },
+    {
+      "x": 41.05034,
+      "y": 91.52656
+    },
+    {
+      "x": 34.16107,
+      "y": 89.41667
+    },
+    {
+      "x": 27.72742,
+      "y": 86.17292
+    },
+    {
+      "x": 21.93464,
+      "y": 81.88854
+    },
+    {
+      "x": 16.94896,
+      "y": 76.68672
+    },
+    {
+      "x": 12.91432,
+      "y": 70.71729
+    },
+    {
+      "x": 9.94661,
+      "y": 64.15177
+    },
+    {
+      "x": 8.13099,
+      "y": 57.17917
+    },
+    {
+      "x": 7.52005,
+      "y": 50.0
+    },
+    {
+      "x": 8.13099,
+      "y": 42.82083
+    },
+    {
+      "x": 9.94661,
+      "y": 35.84823
+    },
+    {
+      "x": 12.91432,
+      "y": 29.28271
+    },
+    {
+      "x": 16.94896,
+      "y": 23.31328
+    },
+    {
+      "x": 21.93464,
+      "y": 18.11146
+    },
+    {
+      "x": 27.72742,
+      "y": 13.82708
+    },
+    {
+      "x": 34.16107,
+      "y": 10.58333
+    },
+    {
+      "x": 41.05034,
+      "y": 8.47344
+    },
+    {
+      "x": 48.1971,
+      "y": 7.55833
+    },
+    {
+      "x": 55.39573,
+      "y": 7.86406
+    },
+    {
+      "x": 62.43911,
+      "y": 9.38203
+    },
+    {
+      "x": 69.12466,
+      "y": 12.06849
+    },
+    {
+      "x": 75.26003,
+      "y": 15.84609
+    },
+    {
+      "x": 80.66875,
+      "y": 20.60651
+    },
+    {
+      "x": 85.19505,
+      "y": 26.21227
+    },
+    {
+      "x": 88.70911,
+      "y": 32.50245
+    },
+    {
+      "x": 91.10938,
+      "y": 39.29596
+    },
+    {
+      "x": 92.32708,
+      "y": 46.39745
+    }
+  ]
+}

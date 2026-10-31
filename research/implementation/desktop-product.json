@@ -1,0 +1,113 @@
+{
+  "metrics": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "landmarks": [
+      {
+        "class": "site-header",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 73,
+          "top": 0,
+          "right": 1440,
+          "bottom": 73,
+          "left": 0
+        }
+      },
+      {
+        "class": "store-rail product-rail",
+        "rect": {
+          "x": 0,
+          "y": 73,
+          "width": 1440,
+          "height": 80,
+          "top": 73,
+          "right": 1440,
+          "bottom": 153,
+          "left": 0
+        }
+      },
+      {
+        "class": "main-product-image",
+        "rect": {
+          "x": 142,
+          "y": 185,
+          "width": 562,
+          "height": 562,
+          "top": 185,
+          "right": 704,
+          "bottom": 747,
+          "left": 142
+        }
+      },
+      {
+        "class": "product-intro",
+        "rect": {
+          "x": 736,
+          "y": 185,
+          "width": 562,
+          "height": 106,
+          "top": 185,
+          "right": 1298,
+          "bottom": 291,
+          "left": 736
+        }
+      },
+      {
+        "class": "price-quantity",
+        "rect": {
+          "x": 736,
+          "y": 315,
+          "width": 562,
+          "height": 44,
+          "top": 315,
+          "right": 1298,
+          "bottom": 359,
+          "left": 736
+        }
+      },
+      {
+        "class": "purchase-actions",
+        "rect": {
+          "x": 736,
+          "y": 383,
+          "width": 562,
+          "height": 114,
+          "top": 383,
+          "right": 1298,
+          "bottom": 497,
+          "left": 736
+        }
+      },
+      {
+        "class": "product-grid",
+        "rect": {
+          "x": 142,
+          "y": 1091,
+          "width": 1156,
+          "height": 772,
+          "top": 1091,
+          "right": 1298,
+          "bottom": 1863,
+          "left": 142
+        }
+      },
+      {
+        "class": "product-grid",
+        "rect": {
+          "x": 142,
+          "y": 2023,
+          "width": 1156,
+          "height": 352.5,
+          "top": 2023,
+          "right": 1298,
+          "bottom": 2375.5,
+          "left": 142
+        }
+      }
+    ]
+  },
+  "errors": []
+}

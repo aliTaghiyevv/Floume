@@ -1,0 +1,165 @@
+{
+  "metrics": {
+    "width": 390,
+    "scrollWidth": 390,
+    "landmarks": [
+      {
+        "class": "site-header",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 61,
+          "top": 0,
+          "right": 390,
+          "bottom": 61,
+          "left": 0
+        }
+      },
+      {
+        "class": "store-rail ",
+        "rect": {
+          "x": 0,
+          "y": 61,
+          "width": 390,
+          "height": 73,
+          "top": 61,
+          "right": 390,
+          "bottom": 134,
+          "left": 0
+        }
+      },
+      {
+        "class": "banner-carousel",
+        "rect": {
+          "x": 12,
+          "y": 150,
+          "width": 366,
+          "height": 221.875,
+          "top": 150,
+          "right": 378,
+          "bottom": 371.875,
+          "left": 12
+        }
+      },
+      {
+        "class": "section-title",
+        "rect": {
+          "x": 12,
+          "y": 407.875,
+          "width": 366,
+          "height": 28,
+          "top": 407.875,
+          "right": 378,
+          "bottom": 435.875,
+          "left": 12
+        }
+      },
+      {
+        "class": "category-carousel",
+        "rect": {
+          "x": 12,
+          "y": 451.875,
+          "width": 366,
+          "height": 103.5,
+          "top": 451.875,
+          "right": 378,
+          "bottom": 555.375,
+          "left": 12
+        }
+      },
+      {
+        "class": "section-subheader",
+        "rect": {
+          "x": 12,
+          "y": 579.375,
+          "width": 366,
+          "height": 28,
+          "top": 579.375,
+          "right": 378,
+          "bottom": 607.375,
+          "left": 12
+        }
+      },
+      {
+        "class": "product-grid",
+        "rect": {
+          "x": 12,
+          "y": 623.375,
+          "width": 366,
+          "height": 1148,
+          "top": 623.375,
+          "right": 378,
+          "bottom": 1771.375,
+          "left": 12
+        }
+      },
+      {
+        "class": "section-title",
+        "rect": {
+          "x": 12,
+          "y": 1883.375,
+          "width": 366,
+          "height": 28,
+          "top": 1883.375,
+          "right": 378,
+          "bottom": 1911.375,
+          "left": 12
+        }
+      },
+      {
+        "class": "category-carousel",
+        "rect": {
+          "x": 12,
+          "y": 1927.375,
+          "width": 366,
+          "height": 103.5,
+          "top": 1927.375,
+          "right": 378,
+          "bottom": 2030.875,
+          "left": 12
+        }
+      },
+      {
+        "class": "section-subheader",
+        "rect": {
+          "x": 12,
+          "y": 2054.875,
+          "width": 366,
+          "height": 28,
+          "top": 2054.875,
+          "right": 378,
+          "bottom": 2082.875,
+          "left": 12
+        }
+      },
+      {
+        "class": "product-grid",
+        "rect": {
+          "x": 12,
+          "y": 2098.875,
+          "width": 366,
+          "height": 1116,
+          "top": 2098.875,
+          "right": 378,
+          "bottom": 3214.875,
+          "left": 12
+        }
+      },
+      {
+        "class": "section-title",
+        "rect": {
+          "x": 12,
+          "y": 3326.875,
+          "width": 366,
+          "height": 28,
+          "top": 3326.875,
+          "right": 378,
+          "bottom": 3354.875,
+          "left": 12
+        }
+      }
+    ]
+  },
+  "errors": []
+}

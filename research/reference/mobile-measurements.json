@@ -1,0 +1,233 @@
+[
+  {
+    "selector": "header.lg\\:hidden",
+    "tag": "HEADER",
+    "classes": "lg:hidden",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 60
+    },
+    "style": {
+      "margin": "0px",
+      "padding": "0px",
+      "aspectRatio": "auto",
+      "height": "60px",
+      "font": "16px / 24px \"Inter Variable\", sans-serif",
+      "gap": "normal",
+      "display": "block",
+      "position": "static"
+    }
+  },
+  {
+    "selector": "[data-slot=\"page-content\"]",
+    "tag": "MAIN",
+    "classes": "mb-6 mt-0 md:mt-8",
+    "rect": {
+      "x": 0,
+      "y": 141,
+      "width": 390,
+      "height": 3704.5
+    },
+    "style": {
+      "margin": "0px 0px 24px",
+      "padding": "0px",
+      "aspectRatio": "auto",
+      "height": "3704.5px",
+      "font": "16px / 24px \"Inter Variable\", sans-serif",
+      "gap": "normal",
+      "display": "block",
+      "position": "static"
+    }
+  },
+  {
+    "selector": ".container-narrow",
+    "tag": "DIV",
+    "classes": "container-narrow flex h-14 flex-wrap items-center justify-between gap-6",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "style": {
+      "margin": "0px auto",
+      "padding": "0px 12px",
+      "aspectRatio": "auto",
+      "height": "56px",
+      "font": "16px / 24px \"Inter Variable\", sans-serif",
+      "gap": "24px",
+      "display": "flex",
+      "position": "static"
+    }
+  },
+  {
+    "selector": "main > div > section",
+    "tag": "SECTION",
+    "classes": "grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8",
+    "rect": {
+      "x": 12,
+      "y": 141,
+      "width": 366,
+      "height": 1050
+    },
+    "style": {
+      "margin": "0px",
+      "padding": "0px",
+      "aspectRatio": "auto",
+      "height": "1050px",
+      "font": "16px / 24px \"Inter Variable\", sans-serif",
+      "gap": "24px",
+      "display": "grid",
+      "position": "static"
+    }
+  },
+  {
+    "selector": "[aria-roledescription=\"carousel\"]",
+    "tag": "DIV",
+    "classes": "group relative overflow-clip rounded-3xl bg-muted",
+    "rect": {
+      "x": 12,
+      "y": 141,
+      "width": 366,
+      "height": 366
+    },
+    "style": {
+      "margin": "0px",
+      "padding": "0px",
+      "aspectRatio": "auto",
+      "height": "366px",
+      "font": "16px / 24px \"Inter Variable\", sans-serif",
+      "gap": "normal",
+      "display": "block",
+      "position": "relative"
+    }
+  },
+  {
+    "selector": "[aria-roledescription=\"slide\"]",
+    "tag": "DIV",
+    "classes": "min-w-0 shrink-0 grow-0 basis-full aspect-square overflow-hidden ps-0",
+    "rect": {
+      "x": 12,
+      "y": 141,
+      "width": 366,
+      "height": 366
+    },
+    "style": {
+      "margin": "0px",
+      "padding": "0px",
+      "aspectRatio": "1 / 1",
+      "height": "366px",
+      "font": "16px / 24px \"Inter Variable\", sans-serif",
+      "gap": "normal",
+      "display": "block",
+      "position": "static"
+    }
+  },
+  {
+    "selector": "[alt=\"Pink Bouquet - image 1\"]",
+    "tag": "IMG",
+    "classes": "h-full w-full object-cover object-center transition-transform duration-300",
+    "rect": {
+      "x": 12,
+      "y": 141,
+      "width": 366,
+      "height": 366
+    },
+    "style": {
+      "margin": "0px",
+      "padding": "0px",
+      "aspectRatio": "auto",
+      "height": "366px",
+      "font": "16px / 24px \"Inter Variable\", sans-serif",
+      "gap": "normal",
+      "display": "block",
+      "position": "static"
+    }
+  },
+  {
+    "selector": "form.flex",
+    "tag": "FORM",
+    "classes": "flex flex-col gap-6",
+    "rect": {
+      "x": 12,
+      "y": 531,
+      "width": 366,
+      "height": 660
+    },
+    "style": {
+      "margin": "0px",
+      "padding": "0px",
+      "aspectRatio": "auto",
+      "height": "660px",
+      "font": "16px / 24px \"Inter Variable\", sans-serif",
+      "gap": "24px",
+      "display": "flex",
+      "position": "static"
+    }
+  },
+  {
+    "selector": "h1",
+    "tag": "H1",
+    "classes": "font-hero text-xl leading-tight font-medium md:text-2xl",
+    "rect": {
+      "x": 12,
+      "y": 569,
+      "width": 366,
+      "height": 25
+    },
+    "style": {
+      "margin": "0px 0px 6px",
+      "padding": "0px",
+      "aspectRatio": "auto",
+      "height": "25px",
+      "font": "500 20px / 25px \"Playfair Display Variable\", serif",
+      "gap": "normal",
+      "display": "block",
+      "position": "static"
+    }
+  },
+  {
+    "selector": "footer",
+    "tag": "FOOTER",
+    "classes": "mt-12 bg-muted data-[hidden=true]:hidden lg:mt-20 lg:block!",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "style": {
+      "margin": "48px 0px 0px",
+      "padding": "0px",
+      "aspectRatio": "auto",
+      "height": "auto",
+      "font": "16px / 24px \"Inter Variable\", sans-serif",
+      "gap": "normal",
+      "display": "none",
+      "position": "static"
+    }
+  },
+  {
+    "selector": ".fixed.bottom-3",
+    "tag": "DIV",
+    "classes": "fixed bottom-3 left-1/2 z-10 block -translate-x-1/2 lg:hidden",
+    "rect": {
+      "x": 36,
+      "y": 766,
+      "width": 318,
+      "height": 66
+    },
+    "style": {
+      "margin": "0px",
+      "padding": "0px",
+      "aspectRatio": "auto",
+      "height": "66px",
+      "font": "16px / 24px \"Inter Variable\", sans-serif",
+      "gap": "normal",
+      "display": "block",
+      "position": "fixed"
+    }
+  }
+]
