@@ -1296,6 +1296,18 @@ html {
   font-size: 14px;
   line-height: 22px;
 }
+.signin-modal form > input {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  font: inherit;
+}
+.signin-modal form > input:focus-visible {
+  outline: 2px solid var(--pink);
+  outline-offset: 2px;
+}
 .phone-input {
   display: flex;
   align-items: center;

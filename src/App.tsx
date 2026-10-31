@@ -38,6 +38,8 @@ import catalogData from "./catalog.json";
 import BouquetAssistant from "./components/BouquetAssistant";
 import BouquetCustomizer from "./components/BouquetCustomizer";
 import type { CustomBouquet } from "./components/BouquetCustomizer";
+import { supabase, supabaseConfig } from "./lib/supabase";
+import type { User } from "@supabase/supabase-js";
 import "./bouquet-flows.css";
 
 type Product = {
@@ -80,6 +82,7 @@ const productById = (id: string) => products.find((p) => p.id === id);
 type Cart = Record<string, number>;
 type Modal =
   | "signin"
+  | "account"
   | "categories"
   | "checkout"
   | "help"
@@ -97,6 +100,7 @@ const AppContext = createContext<{
   add: (p: Product, n: number) => void;
   updateCart: (id: string, n: number) => void;
   notify: (text: string) => void;
+  user: User | null;
 }>(null!);
 const useStore = () => useContext(AppContext);
 
@@ -164,7 +168,7 @@ function Header({
   productPage: boolean;
   location: string;
 }) {
-  const { modal, cart, customBouquets, navigate } = useStore();
+  const { modal, cart, customBouquets, navigate, user } = useStore();
   const [query, setQuery] = useState("");
   const count =
     Object.values(cart).reduce((a, b) => a + b, 0) +
@@ -232,7 +236,7 @@ function Header({
             <button
               className="icon-button account-button"
               aria-label="My account"
-              onClick={() => modal("signin")}
+              onClick={() => modal(user ? "account" : "signin")}
             >
               <UserCircle size={22} />
             </button>
@@ -1231,53 +1235,55 @@ function ModalShell({
     </div>
   );
 }
-function SignIn({ close }: { close: () => void }) {
+function SignIn({ close }: { close: () => void; recovery?: boolean }) {
   const [phone, setPhone] = useState("");
+  const [code, setCode] = useState("");
+  const [step, setStep] = useState<"phone" | "code">("phone");
   const [error, setError] = useState("");
+  const [busy, setBusy] = useState(false);
   return (
     <ModalShell title="Sign in" onClose={close} className="signin-modal">
-      <h2>Sign in</h2>
+      <h2>{step === "phone" ? "Sign in with your phone" : "Enter your code"}</h2>
       <form
-        onSubmit={(e) => {
+        onSubmit={async (e) => {
           e.preventDefault();
-          setError("Sign-in is unavailable in this local preview.");
+          if (!supabase) return setError(`Account services are unavailable: configure ${supabaseConfig.missing.join(" and ")} in the deployment environment.`);
+          setBusy(true);
+          setError("");
+          const result = step === "phone"
+            ? await supabase.auth.signInWithOtp({ phone, options: { shouldCreateUser: true } })
+            : await supabase.auth.verifyOtp({ phone, token: code, type: "sms" });
+          setBusy(false);
+          if (result.error) return setError(result.error.message);
+          if (step === "code") close();
+          else setStep("code");
         }}
       >
-        <label htmlFor="phone">Enter your phone number</label>
-        <div className="phone-input">
-          <span>
-            🇦🇿 +994
-            <ChevronDown size={14} />
-          </span>
-          <input
-            id="phone"
-            type="tel"
-            autoComplete="tel-national"
-            placeholder="Enter your phone number"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
-            required
-            minLength={7}
-          />
-        </div>
+        <label htmlFor="account-phone">Phone number</label>
+        <input id="account-phone" type="tel" autoComplete="tel" placeholder="+994501234567" value={phone} onChange={(e) => setPhone(e.target.value)} required disabled={step === "code"} />
+        {step === "code" && <><label htmlFor="account-code">SMS code</label>
+        <input id="account-code" inputMode="numeric" autoComplete="one-time-code" value={code} onChange={(e) => setCode(e.target.value.replace(/\D/g, "").slice(0, 8))} minLength={4} maxLength={8} required /></>}
         {error && (
           <p role="status" className="form-message">
             {error}
           </p>
         )}
-        <button type="submit" className="primary-button">
-          Continue
+        <button type="submit" className="primary-button" disabled={busy}>
+          {busy ? "Please wait…" : step === "phone" ? "Send SMS code" : "Verify code"}
         </button>
-        <button
+        {step === "phone" && <button
           type="button"
           className="telegram-button outline-button"
-          onClick={() =>
-            setError("Telegram sign-in is unavailable in this local preview.")
-          }
+          onClick={async () => {
+            if (!supabase) return setError(`Account services are unavailable: configure ${supabaseConfig.missing.join(" and ")} in the deployment environment.`);
+            const { error: telegramError } = await supabase.auth.signInWithOAuth({ provider: "custom:telegram", options: { redirectTo: window.location.origin + "/en/" } });
+            if (telegramError) setError(telegramError.message);
+          }}
+          disabled={busy}
         >
-          <Send size={20} />
-          Sign in with Telegram
-        </button>
+          <Send size={20} /> Continue with Telegram
+        </button>}
+        {step === "code" && <button type="button" className="outline-button" onClick={() => { setStep("phone"); setCode(""); setError(""); }}>Use a different number</button>}
       </form>
       <p className="signin-terms">
         By signing in, I agree to the{" "}
@@ -1311,6 +1317,18 @@ function CategoriesMenu({ close }: { close: () => void }) {
   );
 }
 export default function App() {
+  const [user, setUser] = useState<User | null>(null);
+  const [recovering, setRecovering] = useState(false);
+  useEffect(() => {
+    if (!supabase) return;
+    let active = true;
+    supabase.auth.getUser().then(({ data }) => { if (active) setUser(data.user); });
+    const { data: listener } = supabase.auth.onAuthStateChange((event, session) => {
+      setUser(session?.user ?? null);
+      if (event === "PASSWORD_RECOVERY") { setRecovering(true); setModal("signin"); }
+    });
+    return () => { active = false; listener.subscription.unsubscribe(); };
+  }, []);
   const [location, setLocation] = useState(
     window.location.pathname + window.location.search,
   );
@@ -1412,6 +1430,7 @@ export default function App() {
             return next;
           }),
         notify,
+        user,
       }}
     >
       <a className="skip-link" href="#main-content">
@@ -1448,7 +1467,12 @@ export default function App() {
           }}
         />
       )}
-      {modal === "signin" && <SignIn close={() => setModal(null)} />}{" "}
+      {modal === "signin" && <SignIn recovery={recovering} close={() => { setRecovering(false); setModal(null); }} />}{" "}
+      {modal === "account" && <ModalShell title="My account" onClose={() => setModal(null)} className="signin-modal">
+        <h2>My account</h2>
+        <p>{user?.phone ?? user?.email}</p>
+        <button className="outline-button" onClick={async () => { await supabase?.auth.signOut(); setModal(null); }}>Sign out</button>
+      </ModalShell>}{" "}
       {modal === "categories" && (
         <CategoriesMenu close={() => setModal(null)} />
       )}{" "}

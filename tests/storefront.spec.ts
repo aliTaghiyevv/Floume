@@ -142,7 +142,7 @@ test("sign-in opens and Escape closes it", async ({ page }) => {
     .click();
   const dialog = page.getByRole("dialog", { name: "Sign in", exact: true });
   await expect(dialog).toBeVisible();
-  await expect(dialog.getByRole("textbox", { name: /phone/i })).toBeVisible();
+  await expect(dialog.getByRole("textbox", { name: /email/i })).toBeVisible();
   await page.keyboard.press("Escape");
   await expect(dialog).toBeHidden();
 });
