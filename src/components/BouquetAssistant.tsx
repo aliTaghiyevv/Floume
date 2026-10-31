@@ -83,6 +83,7 @@ export default function BouquetAssistant({
     localStorage.setItem(storageKey, JSON.stringify(messages.slice(-24)));
   }, [messages]);
   useEffect(() => {
+    if (!messages.length && !busy && !error) return;
     const body = list.current?.closest(".flow-dialog-body");
     if (body) body.scrollTo({ top: body.scrollHeight, behavior: "smooth" });
   }, [messages, busy, error]);
@@ -127,7 +128,24 @@ export default function BouquetAssistant({
         body: JSON.stringify({
           messages: history
             .slice(-20)
-            .map((m) => ({ role: m.role, content: m.content })),
+            .map((m) => ({ role: m.role, content: m.content.slice(0, 2500) }))
+            .reverse()
+            .reduce<{ role: Message["role"]; content: string }[]>(
+              (recent, message) => {
+                const used = recent.reduce(
+                  (total, item) => total + item.content.length,
+                  0,
+                );
+                if (
+                  used + message.content.length <= 10000 ||
+                  recent.length === 0
+                )
+                  recent.push(message);
+                return recent;
+              },
+              [],
+            )
+            .reverse(),
         }),
         signal: abort.signal,
       });
@@ -242,7 +260,7 @@ export default function BouquetAssistant({
               placeholder="Type a message…"
               aria-label="Type a message…"
               rows={1}
-              maxLength={3000}
+              maxLength={2500}
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => {

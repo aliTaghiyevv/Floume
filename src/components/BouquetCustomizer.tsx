@@ -32,6 +32,7 @@ export type CustomBouquet = {
   note: string;
   date: string;
   address?: string;
+  generatedImage?: string;
 };
 type Point = { x: number; y: number };
 type Draft = {
@@ -166,6 +167,16 @@ export default function BouquetCustomizer({
   const [addressInput, setAddressInput] = useState("");
   const [promoMessage, setPromoMessage] = useState("");
   const [saved, setSaved] = useState(false);
+  const [generated, setGenerated] = useState<{
+    key: string;
+    url: string;
+  } | null>(null);
+  const [imageVariant, setImageVariant] = useState(0);
+  const [previewMode, setPreviewMode] = useState<"arrangement" | "generated">(
+    "arrangement",
+  );
+  const [generating, setGenerating] = useState(false);
+  const [imageError, setImageError] = useState("");
   const canvas = useRef<HTMLDivElement>(null);
   const drag = useRef<{ id: string; target: HTMLElement } | null>(null);
   const bodyTop = useRef<HTMLDivElement>(null);
@@ -182,6 +193,53 @@ export default function BouquetCustomizer({
     bodyTop.current?.scrollIntoView({ block: "start" });
   }, [draft.step]);
   const selected = data.flowers.filter((f) => (draft.flowers[f.id] || 0) > 0);
+  const imageKey = JSON.stringify({
+    flowers: draft.flowers,
+    base: draft.base,
+    decors: draft.decors,
+  });
+  const generatedImage =
+    generated?.key === imageKey ? generated.url : undefined;
+  async function generatePreview() {
+    if (!selected.length || generating) return;
+    const variant = generatedImage ? imageVariant + 1 : imageVariant;
+    if (variant > 100) return;
+    if (variant !== imageVariant) setImageVariant(variant);
+    setGenerating(true);
+    setImageError("");
+    try {
+      const response = await fetch("/api/image/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          flowers: selected.map((f) => ({
+            id: f.id,
+            quantity: draft.flowers[f.id],
+          })),
+          base: draft.base,
+          decors: Object.keys(draft.decors).filter(
+            (id) => draft.decors[id] > 0,
+          ),
+          variant,
+        }),
+      });
+      const result = await response.json();
+      if (!response.ok || typeof result.imageUrl !== "string")
+        throw new Error(
+          result.error || "Could not generate the bouquet image.",
+        );
+      setGenerated({ key: imageKey, url: result.imageUrl });
+      setPreviewMode("generated");
+    } catch (error) {
+      setImageError(
+        error instanceof Error
+          ? error.message
+          : "Could not generate the bouquet image.",
+      );
+    } finally {
+      setGenerating(false);
+    }
+  }
   const flowerCount = selected.reduce((sum, f) => sum + draft.flowers[f.id], 0);
   const base = data.bases.find((b) => b.id === draft.base);
   const extras = data.decors.filter((d) => (draft.decors[d.id] || 0) > 0);
@@ -382,6 +440,7 @@ export default function BouquetCustomizer({
       note: draft.showNote ? draft.note : "",
       date: draft.date,
       address: draft.delivery === "address" ? draft.address : undefined,
+      generatedImage,
     });
     setSaved(true);
     localStorage.removeItem(key);
@@ -442,7 +501,15 @@ export default function BouquetCustomizer({
           <CheckCircle2 size={56} />
           <h2>Your bouquet is saved</h2>
           <p>Your design is in your cart, ready whenever you are.</p>
-          {bouquetCanvas()}
+          {generatedImage ? (
+            <img
+              className="bc-generated-image"
+              src={generatedImage}
+              alt="Generated bouquet preview"
+            />
+          ) : (
+            bouquetCanvas()
+          )}
           <p className="bc-preview-note">
             Saved on this device. No order or payment was submitted.
           </p>
@@ -521,7 +588,64 @@ export default function BouquetCustomizer({
                   </p>
                 )}
               </div>
-              <div className="bc-canvas-wrap">{bouquetCanvas()}</div>
+              <div className="bc-canvas-wrap">
+                {generatedImage && (
+                  <div
+                    className="bc-preview-tabs"
+                    role="group"
+                    aria-label="Bouquet preview mode"
+                  >
+                    <button
+                      type="button"
+                      aria-pressed={previewMode === "arrangement"}
+                      onClick={() => setPreviewMode("arrangement")}
+                    >
+                      Arrange flowers
+                    </button>
+                    <button
+                      type="button"
+                      aria-pressed={previewMode === "generated"}
+                      onClick={() => setPreviewMode("generated")}
+                    >
+                      AI preview
+                    </button>
+                  </div>
+                )}
+                {generatedImage && previewMode === "generated" ? (
+                  <img
+                    className="bc-generated-image bc-generated-main"
+                    src={generatedImage}
+                    alt="AI-generated preview of your bouquet"
+                  />
+                ) : (
+                  bouquetCanvas()
+                )}
+                {flowerCount > 0 && (
+                  <div className="bc-image-preview">
+                    <button
+                      type="button"
+                      className="outline-button"
+                      disabled={generating}
+                      onClick={() => void generatePreview()}
+                    >
+                      {generating
+                        ? "Generating on this Mac…"
+                        : generatedImage
+                          ? "Generate again"
+                          : "Generate realistic bouquet preview"}
+                    </button>
+                    <p>
+                      AI visualization of your selected flowers. The florist’s
+                      final arrangement may differ.
+                    </p>
+                    {imageError && (
+                      <p role="alert" className="bc-image-error">
+                        {imageError}
+                      </p>
+                    )}
+                  </div>
+                )}
+              </div>
               <div className="bc-selected">
                 <div className="bc-selected-heading">
                   {selected.length > 0 && <h3>Selected flowers</h3>}
@@ -638,7 +762,17 @@ export default function BouquetCustomizer({
           {draft.step === 4 && (
             <div className="bc-padded bc-review">
               <div className="bc-review-product">
-                <div className="bc-summary-image">{bouquetCanvas(true)}</div>
+                <div className="bc-summary-image">
+                  {generatedImage ? (
+                    <img
+                      className="bc-generated-image"
+                      src={generatedImage}
+                      alt="AI-generated bouquet preview"
+                    />
+                  ) : (
+                    bouquetCanvas(true)
+                  )}
+                </div>
                 <div>
                   <p>Design your own bouquet</p>
                   <small>

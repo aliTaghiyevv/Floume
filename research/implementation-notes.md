@@ -18,7 +18,7 @@ Implemented from the public desktop and mobile references captured on 2026-10-31
 - Product pages: implemented for all 66 snapshot products. The sampled Pink Bouquet's exact similar/store product sequences are retained. Other pages derive related lists from the local catalog rather than querying the original API.
 - Responsive layouts: checked at 1440, 768, 390, and 320 pixels.
 - Local interactions: search, categories, store listings, sorting, image galleries/zoom, wishlist, quantity controls, and persistent cart.
-- Authenticated AI/customization and real checkout: outside this design implementation; dialogs explain preview availability.
+- Authenticated AI/customization were subsequently observed and recreated as local AI chat and a five-step bouquet builder. See `bouquet-flow.md`. Real checkout remains outside the local implementation.
 
 The visual reference includes public third-party branding, photography, fonts, and SVG paths. Source URLs are recorded in `reference/asset-manifest.json`. The local catalog is a point-in-time snapshot; prices/availability do not refresh from the original service.
 

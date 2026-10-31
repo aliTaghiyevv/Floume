@@ -38,7 +38,6 @@ import catalogData from "./catalog.json";
 import BouquetAssistant from "./components/BouquetAssistant";
 import BouquetCustomizer from "./components/BouquetCustomizer";
 import type { CustomBouquet } from "./components/BouquetCustomizer";
-// @ts-expect-error CSS is processed by the bundler and has no TypeScript declarations.
 import "./bouquet-flows.css";
 
 type Product = {
@@ -942,19 +941,26 @@ function CartPage() {
                   className="custom-cart-art"
                   aria-label="Custom bouquet preview"
                 >
-                  {b.items
-                    .filter((i) => i.image)
-                    .slice(0, 5)
-                    .map((item, i) => (
-                      <img
-                        src={item.image}
-                        alt=""
-                        key={`${item.name}-${i}`}
-                        style={{
-                          transform: `translate(${((i % 3) - 1) * 18}px,${Math.floor(i / 3) * 20 - 10}px) rotate(${(i - 2) * 18}deg)`,
-                        }}
-                      />
-                    ))}
+                  {b.generatedImage ? (
+                    <img
+                      src={b.generatedImage}
+                      alt="Generated bouquet preview"
+                    />
+                  ) : (
+                    b.items
+                      .filter((i) => i.image)
+                      .slice(0, 5)
+                      .map((item, i) => (
+                        <img
+                          src={item.image}
+                          alt=""
+                          key={`${item.name}-${i}`}
+                          style={{
+                            transform: `translate(${((i % 3) - 1) * 18}px,${Math.floor(i / 3) * 20 - 10}px) rotate(${(i - 2) * 18}deg)`,
+                          }}
+                        />
+                      ))
+                  )}
                 </div>
                 <div className="cart-item-info">
                   <h2>{b.name}</h2>

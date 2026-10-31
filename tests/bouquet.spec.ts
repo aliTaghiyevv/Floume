@@ -62,6 +62,59 @@ async function mockStatus(page: Page) {
   );
 }
 
+test("generated bouquet preview follows the selected composition", async ({
+  page,
+}) => {
+  const requests: Array<{ flowers: Array<{ id: string; quantity: number }> }> =
+    [];
+  await page.route("**/api/image/generate", async (route) => {
+    requests.push(route.request().postDataJSON());
+    await route.fulfill({
+      json: {
+        imageUrl: "/assets/bouquet/5ef30a850b114be6.webp",
+        model: "test-image-model",
+      },
+    });
+  });
+  await page.goto("/en/");
+  const dialog = await openCustomizer(page);
+  await selectFlowers(page);
+  await dialog
+    .getByRole("button", { name: "Generate realistic bouquet preview" })
+    .click();
+  await expect(
+    dialog.getByRole("img", { name: "AI-generated preview of your bouquet" }),
+  ).toBeVisible();
+  await expect(
+    dialog.getByRole("button", { name: "AI preview" }),
+  ).toHaveAttribute("aria-pressed", "true");
+  expect(requests[0].flowers).toEqual([
+    { id: "flower-1", quantity: 2 },
+    { id: "flower-2", quantity: 1 },
+  ]);
+  await dialog.getByRole("button", { name: "Arrange flowers" }).click();
+  await expect(
+    dialog.getByRole("button", { name: "Move White Alstroemeria 1" }),
+  ).toBeVisible();
+  await dialog
+    .getByRole("button", { name: "Increase Pink Alstroemeria" })
+    .click();
+  await expect(
+    dialog.getByRole("img", { name: "AI-generated preview of your bouquet" }),
+  ).toHaveCount(0);
+  await dialog
+    .getByRole("button", { name: "Generate realistic bouquet preview" })
+    .click();
+  await expect(
+    dialog.getByRole("img", { name: "AI-generated preview of your bouquet" }),
+  ).toBeVisible();
+  expect(requests[1].flowers).toEqual([
+    { id: "flower-1", quantity: 2 },
+    { id: "flower-2", quantity: 2 },
+  ]);
+  await noOverflow(page);
+});
+
 test("flower selection, quantity removal, search and reset work without losing a draft", async ({
   page,
 }) => {
