@@ -38,6 +38,7 @@ import catalogData from "./catalog.json";
 import BouquetAssistant from "./components/BouquetAssistant";
 import BouquetCustomizer from "./components/BouquetCustomizer";
 import type { CustomBouquet } from "./components/BouquetCustomizer";
+// @ts-expect-error CSS is processed by the bundler and has no TypeScript declarations.
 import "./bouquet-flows.css";
 
 type Product = {
